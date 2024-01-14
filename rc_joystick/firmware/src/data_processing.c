@@ -32,7 +32,7 @@ uint8_t* convert32_to_8(uint32_t* data)
 	return arr_for_convert;
 }
 
-void transmit_data_to_usart(uint32_t* adc_raw_data, uint8_t* gpio_data)
+void transmit_data_to_usart(uint16_t* adc_raw_data, uint8_t* gpio_data)
 {
 	for (uint8_t i = 0; i < 4; i++)
 	{
@@ -58,6 +58,9 @@ void transmit_data_to_usart(uint32_t* adc_raw_data, uint8_t* gpio_data)
 
 void led_control(uint8_t btn_left_state, uint8_t btn_right_state)
 {
+//	btn_left_state = HAL_GPIO_ReadPin(BTN_LEFT_GPIO_Port, BTN_LEFT_Pin);
+//	btn_right_state = HAL_GPIO_ReadPin(BTN_RIGHT_GPIO_Port, BTN_RIGHT_Pin);
+	
 	if (btn_left_state)
 	{
 		HAL_GPIO_WritePin(LED_LEFT_GPIO_Port, LED_LEFT_Pin, GPIO_PIN_SET);

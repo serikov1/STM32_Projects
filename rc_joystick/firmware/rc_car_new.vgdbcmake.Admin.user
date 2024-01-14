@@ -14,6 +14,19 @@
     <e>
       <e32>
         <c>adc_raw_data</c>
+        <b>com.sysprogs.types.builtin.UInt64</b>
+        <f>true</f>
+        <e>
+          <ComparisonMode>Equals</ComparisonMode>
+          <Enabled>false</Enabled>
+        </e>
+        <h>false</h>
+        <g>false</g>
+        <a>false</a>
+      </e32>
+      <e32>
+        <c>btn_left_state</c>
+        <b>com.sysprogs.types.builtin.UInt8</b>
         <f>true</f>
         <e>
           <ComparisonMode>Equals</ComparisonMode>

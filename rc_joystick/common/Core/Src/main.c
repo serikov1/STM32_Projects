@@ -47,7 +47,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint32_t adc_raw_data[ADC_CHANNELS_NUM];
+uint16_t adc_raw_data[ADC_CHANNELS_NUM];
 //uint8_t data_to_transmit[AMOUNT_BYTES_TO_TRANSMIT];
 uint8_t joybtn_right_state = 0;
 uint8_t joybtn_left_state = 0;
@@ -172,6 +172,22 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	if (huart->Instance == USART1)
 	{
 		error_callback = 1;
+	}
+}
+
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+	if (GPIO_Pin == BTN_LEFT_Pin)
+	{
+		btn_left_state = !btn_left_state;
+	}
+	else if (GPIO_Pin == BTN_RIGHT_Pin)
+	{
+		btn_right_state = !btn_right_state;
+	}
+	else 
+	{
+		__NOP();
 	}
 }
 
