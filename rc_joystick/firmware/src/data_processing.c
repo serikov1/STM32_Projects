@@ -65,7 +65,7 @@ void led_control(uint8_t btn_left_state, uint8_t btn_right_state)
 	{
 		HAL_GPIO_WritePin(LED_LEFT_GPIO_Port, LED_LEFT_Pin, GPIO_PIN_SET);
 	}
-	else
+	else if (!btn_left_state)
 	{
 		HAL_GPIO_WritePin(LED_LEFT_GPIO_Port, LED_LEFT_Pin, GPIO_PIN_RESET);
 	}
@@ -74,7 +74,7 @@ void led_control(uint8_t btn_left_state, uint8_t btn_right_state)
 	{
 		HAL_GPIO_WritePin(LED_RIGHT_GPIO_Port, LED_RIGHT_Pin, GPIO_PIN_SET);
 	}
-	else
+	else if (!btn_right_state)
 	{
 		HAL_GPIO_WritePin(LED_RIGHT_GPIO_Port, LED_RIGHT_Pin, GPIO_PIN_RESET);
 	}
