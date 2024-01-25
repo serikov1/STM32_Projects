@@ -85,7 +85,7 @@ void Error_Handler(void);
 #define PWM_SERVO_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
-
+#define AMOUNT_BYTES_TO_RECEIVE 24
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

@@ -18,6 +18,15 @@ uint8_t* gpio_joystick_read_in(uint8_t joybtn_right_state, uint8_t joybtn_left_s
 }
 
 
+uint8_t* convert16_to_8(uint16_t* data)
+{
+	arr_for_convert[0] = (*data) & 0xFF;
+	arr_for_convert[1] = (*data) >> 8;
+	arr_for_convert[2] = 0;
+	arr_for_convert[3] = 0;
+	
+	return arr_for_convert;
+}
 uint8_t* convert32_to_8(uint32_t* data)
 {
 	arr_for_convert[0] = (*data & 0xFF000000) >> 24;
@@ -32,12 +41,12 @@ void transmit_data_to_usart(uint16_t* adc_raw_data, uint8_t* gpio_data)
 {
 	for (uint8_t i = 0; i < 4; i++)
 	{
-		data_to_transmit[i] = convert32_to_8(&adc_raw_data[0])[i];
-		data_to_transmit[i + 4] = convert32_to_8(&adc_raw_data[1])[i];
-		data_to_transmit[i + 8] = convert32_to_8(&adc_raw_data[2])[i];
-		data_to_transmit[i + 12] = convert32_to_8(&adc_raw_data[3])[i];
+		data_to_transmit[i] = convert16_to_8(&adc_raw_data[0])[i];
+		data_to_transmit[i + 4] = convert16_to_8(&adc_raw_data[1])[i];
+		data_to_transmit[i + 8] = convert16_to_8(&adc_raw_data[2])[i];
+		data_to_transmit[i + 12] = convert16_to_8(&adc_raw_data[3])[i];
 	}
-	  
+	
 	data_to_transmit[16] = *gpio_data;
 	data_to_transmit[17] = *(gpio_data+1);
 	data_to_transmit[18] = *(gpio_data+2);

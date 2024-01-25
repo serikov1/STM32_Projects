@@ -3195,7 +3195,7 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x0800010c     0x35d8
+.text           0x0800010c     0x3614
                 0x0800010c                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -3210,422 +3210,425 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
  .text.gpio_joystick_read_in
                 0x08000198       0x48 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
                 0x08000198                gpio_joystick_read_in
+ .text.convert16_to_8
+                0x080001e0       0x3c CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x080001e0                convert16_to_8
  .text.convert32_to_8
-                0x080001e0       0x48 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
-                0x080001e0                convert32_to_8
+                0x0800021c       0x48 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x0800021c                convert32_to_8
  .text.transmit_data_to_usart
-                0x08000228       0xf8 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
-                0x08000228                transmit_data_to_usart
+                0x08000264       0xf8 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x08000264                transmit_data_to_usart
  .text.led_control
-                0x08000320       0x68 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
-                0x08000320                led_control
+                0x0800035c       0x68 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x0800035c                led_control
  .text.Reset_Handler
-                0x08000388       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
-                0x08000388                Reset_Handler
+                0x080003c4       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+                0x080003c4                Reset_Handler
  .text.Default_Handler
-                0x080003d0        0x2 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
-                0x080003d0                RTC_Alarm_IRQHandler
-                0x080003d0                EXTI2_IRQHandler
-                0x080003d0                TIM1_CC_IRQHandler
-                0x080003d0                PVD_IRQHandler
-                0x080003d0                EXTI3_IRQHandler
-                0x080003d0                EXTI0_IRQHandler
-                0x080003d0                SPI1_IRQHandler
-                0x080003d0                TAMPER_IRQHandler
-                0x080003d0                DMA1_Channel4_IRQHandler
-                0x080003d0                RTC_IRQHandler
-                0x080003d0                DMA1_Channel7_IRQHandler
-                0x080003d0                CAN1_RX1_IRQHandler
-                0x080003d0                I2C1_EV_IRQHandler
-                0x080003d0                DMA1_Channel6_IRQHandler
-                0x080003d0                TIM3_IRQHandler
-                0x080003d0                RCC_IRQHandler
-                0x080003d0                TIM1_TRG_COM_IRQHandler
-                0x080003d0                Default_Handler
-                0x080003d0                DMA1_Channel5_IRQHandler
-                0x080003d0                USB_LP_CAN1_RX0_IRQHandler
-                0x080003d0                USB_HP_CAN1_TX_IRQHandler
-                0x080003d0                DMA1_Channel3_IRQHandler
-                0x080003d0                TIM1_UP_IRQHandler
-                0x080003d0                WWDG_IRQHandler
-                0x080003d0                TIM2_IRQHandler
-                0x080003d0                TIM1_BRK_IRQHandler
-                0x080003d0                EXTI1_IRQHandler
-                0x080003d0                USART2_IRQHandler
-                0x080003d0                DMA1_Channel2_IRQHandler
-                0x080003d0                CAN1_SCE_IRQHandler
-                0x080003d0                FLASH_IRQHandler
-                0x080003d0                I2C1_ER_IRQHandler
-                0x080003d0                USBWakeUp_IRQHandler
- *fill*         0x080003d2        0x2 
- .text.main     0x080003d4       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
-                0x080003d4                main
+                0x0800040c        0x2 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+                0x0800040c                RTC_Alarm_IRQHandler
+                0x0800040c                EXTI2_IRQHandler
+                0x0800040c                TIM1_CC_IRQHandler
+                0x0800040c                PVD_IRQHandler
+                0x0800040c                EXTI3_IRQHandler
+                0x0800040c                EXTI0_IRQHandler
+                0x0800040c                SPI1_IRQHandler
+                0x0800040c                TAMPER_IRQHandler
+                0x0800040c                DMA1_Channel4_IRQHandler
+                0x0800040c                RTC_IRQHandler
+                0x0800040c                DMA1_Channel7_IRQHandler
+                0x0800040c                CAN1_RX1_IRQHandler
+                0x0800040c                I2C1_EV_IRQHandler
+                0x0800040c                DMA1_Channel6_IRQHandler
+                0x0800040c                TIM3_IRQHandler
+                0x0800040c                RCC_IRQHandler
+                0x0800040c                TIM1_TRG_COM_IRQHandler
+                0x0800040c                Default_Handler
+                0x0800040c                DMA1_Channel5_IRQHandler
+                0x0800040c                USB_LP_CAN1_RX0_IRQHandler
+                0x0800040c                USB_HP_CAN1_TX_IRQHandler
+                0x0800040c                DMA1_Channel3_IRQHandler
+                0x0800040c                TIM1_UP_IRQHandler
+                0x0800040c                WWDG_IRQHandler
+                0x0800040c                TIM2_IRQHandler
+                0x0800040c                TIM1_BRK_IRQHandler
+                0x0800040c                EXTI1_IRQHandler
+                0x0800040c                USART2_IRQHandler
+                0x0800040c                DMA1_Channel2_IRQHandler
+                0x0800040c                CAN1_SCE_IRQHandler
+                0x0800040c                FLASH_IRQHandler
+                0x0800040c                I2C1_ER_IRQHandler
+                0x0800040c                USBWakeUp_IRQHandler
+ *fill*         0x0800040e        0x2 
+ .text.main     0x08000410       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x08000410                main
  .text.SystemClock_Config
-                0x08000454       0xb6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
-                0x08000454                SystemClock_Config
- *fill*         0x0800050a        0x2 
+                0x08000490       0xb6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x08000490                SystemClock_Config
+ *fill*         0x08000546        0x2 
  .text.HAL_UART_RxCpltCallback
-                0x0800050c       0x2c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
-                0x0800050c                HAL_UART_RxCpltCallback
+                0x08000548       0x2c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x08000548                HAL_UART_RxCpltCallback
  .text.HAL_GPIO_EXTI_Callback
-                0x08000538       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
-                0x08000538                HAL_GPIO_EXTI_Callback
+                0x08000574       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x08000574                HAL_GPIO_EXTI_Callback
  .text.Error_Handler
-                0x080005c8        0xa CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
-                0x080005c8                Error_Handler
- *fill*         0x080005d2        0x2 
+                0x08000604        0xa CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x08000604                Error_Handler
+ *fill*         0x0800060e        0x2 
  .text.HAL_Init
-                0x080005d4       0x2c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080005d4                HAL_Init
+                0x08000610       0x2c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000610                HAL_Init
  .text.HAL_InitTick
-                0x08000600       0x60 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000600                HAL_InitTick
+                0x0800063c       0x60 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800063c                HAL_InitTick
  .text.HAL_IncTick
-                0x08000660       0x24 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000660                HAL_IncTick
+                0x0800069c       0x24 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800069c                HAL_IncTick
  .text.HAL_GetTick
-                0x08000684       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000684                HAL_GetTick
+                0x080006c0       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080006c0                HAL_GetTick
  .text.HAL_ADC_Init
-                0x08000698      0x1b0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000698                HAL_ADC_Init
+                0x080006d4      0x1b0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x080006d4                HAL_ADC_Init
  .text.HAL_ADC_Start_DMA
-                0x08000848      0x1bc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000848                HAL_ADC_Start_DMA
+                0x08000884      0x1bc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000884                HAL_ADC_Start_DMA
  .text.HAL_ADC_IRQHandler
-                0x08000a04      0x17e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000a04                HAL_ADC_IRQHandler
+                0x08000a40      0x17e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000a40                HAL_ADC_IRQHandler
  .text.HAL_ADC_ConvCpltCallback
-                0x08000b82       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000b82                HAL_ADC_ConvCpltCallback
+                0x08000bbe       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000bbe                HAL_ADC_ConvCpltCallback
  .text.HAL_ADC_ConvHalfCpltCallback
-                0x08000b94       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000b94                HAL_ADC_ConvHalfCpltCallback
+                0x08000bd0       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000bd0                HAL_ADC_ConvHalfCpltCallback
  .text.HAL_ADC_LevelOutOfWindowCallback
-                0x08000ba6       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000ba6                HAL_ADC_LevelOutOfWindowCallback
+                0x08000be2       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000be2                HAL_ADC_LevelOutOfWindowCallback
  .text.HAL_ADC_ErrorCallback
-                0x08000bb8       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000bb8                HAL_ADC_ErrorCallback
- *fill*         0x08000bca        0x2 
+                0x08000bf4       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000bf4                HAL_ADC_ErrorCallback
+ *fill*         0x08000c06        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x08000bcc      0x1f0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000bcc                HAL_ADC_ConfigChannel
+                0x08000c08      0x1f0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000c08                HAL_ADC_ConfigChannel
  .text.ADC_Enable
-                0x08000dbc       0xb4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000dbc                ADC_Enable
+                0x08000df8       0xb4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000df8                ADC_Enable
  .text.ADC_ConversionStop_Disable
-                0x08000e70       0x82 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000e70                ADC_ConversionStop_Disable
+                0x08000eac       0x82 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000eac                ADC_ConversionStop_Disable
  .text.ADC_DMAConvCplt
-                0x08000ef2       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000ef2                ADC_DMAConvCplt
+                0x08000f2e       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000f2e                ADC_DMAConvCplt
  .text.ADC_DMAHalfConvCplt
-                0x08000f6e       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000f6e                ADC_DMAHalfConvCplt
+                0x08000faa       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000faa                ADC_DMAHalfConvCplt
  .text.ADC_DMAError
-                0x08000f8a       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
-                0x08000f8a                ADC_DMAError
+                0x08000fc6       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x08000fc6                ADC_DMAError
  .text.HAL_ADCEx_InjectedConvCpltCallback
-                0x08000fbe       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
-                0x08000fbe                HAL_ADCEx_InjectedConvCpltCallback
+                0x08000ffa       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+                0x08000ffa                HAL_ADCEx_InjectedConvCpltCallback
  .text.__NVIC_SetPriorityGrouping
-                0x08000fd0       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800100c       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x08001018       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001054       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x08001034       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001070       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x0800106c       0x54 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080010a8       0x54 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x080010c0       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080010fc       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x08001124       0x44 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001160       0x44 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08001168       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001168                HAL_NVIC_SetPriorityGrouping
+                0x080011a4       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080011a4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0800117e       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800117e                HAL_NVIC_SetPriority
+                0x080011ba       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080011ba                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x080011b6       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080011b6                HAL_NVIC_EnableIRQ
+                0x080011f2       0x1c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080011f2                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080011d2       0x18 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080011d2                HAL_SYSTICK_Config
+                0x0800120e       0x18 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800120e                HAL_SYSTICK_Config
  .text.HAL_CRC_Init
-                0x080011ea       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
-                0x080011ea                HAL_CRC_Init
+                0x08001226       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x08001226                HAL_CRC_Init
  .text.HAL_CRC_Calculate
-                0x08001222       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
-                0x08001222                HAL_CRC_Calculate
- *fill*         0x08001286        0x2 
+                0x0800125e       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x0800125e                HAL_CRC_Calculate
+ *fill*         0x080012c2        0x2 
  .text.HAL_DMA_Init
-                0x08001288       0xb4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08001288                HAL_DMA_Init
+                0x080012c4       0xb4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080012c4                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x0800133c       0xc0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x0800133c                HAL_DMA_Start_IT
+                0x08001378       0xc0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x08001378                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort
-                0x080013fc       0x76 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x080013fc                HAL_DMA_Abort
- *fill*         0x08001472        0x2 
+                0x08001438       0x76 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x08001438                HAL_DMA_Abort
+ *fill*         0x080014ae        0x2 
  .text.HAL_DMA_Abort_IT
-                0x08001474       0xf0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08001474                HAL_DMA_Abort_IT
+                0x080014b0       0xf0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080014b0                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x08001564      0x20c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08001564                HAL_DMA_IRQHandler
+                0x080015a0      0x20c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080015a0                HAL_DMA_IRQHandler
  .text.DMA_SetConfig
-                0x08001770       0x5a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- *fill*         0x080017ca        0x2 
+                0x080017ac       0x5a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ *fill*         0x08001806        0x2 
  .text.HAL_GPIO_Init
-                0x080017cc      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080017cc                HAL_GPIO_Init
+                0x08001808      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001808                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08001ac4       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08001ac4                HAL_GPIO_WritePin
+                0x08001b00       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001b00                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08001af4       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08001af4                HAL_GPIO_EXTI_IRQHandler
+                0x08001b30       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001b30                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_RCC_OscConfig
-                0x08001b24      0x504 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001b24                HAL_RCC_OscConfig
+                0x08001b60      0x504 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001b60                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08002028      0x1d4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08002028                HAL_RCC_ClockConfig
+                0x08002064      0x1d4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002064                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080021fc       0xa8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080021fc                HAL_RCC_GetSysClockFreq
+                0x08002238       0xa8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002238                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x080022a4       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022a4                HAL_RCC_GetHCLKFreq
+                0x080022e0       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080022e0                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x080022b8       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022b8                HAL_RCC_GetPCLK1Freq
+                0x080022f4       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080022f4                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080022e0       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080022e0                HAL_RCC_GetPCLK2Freq
+                0x0800231c       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0800231c                HAL_RCC_GetPCLK2Freq
  .text.RCC_Delay
-                0x08002308       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002344       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08002344      0x16c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-                0x08002344                HAL_RCCEx_PeriphCLKConfig
+                0x08002380      0x16c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x08002380                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_UART_Init
-                0x080024b0       0xa0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080024b0                HAL_UART_Init
+                0x080024ec       0xa0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080024ec                HAL_UART_Init
  .text.HAL_UART_Transmit_IT
-                0x08002550       0x6a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08002550                HAL_UART_Transmit_IT
- *fill*         0x080025ba        0x2 
+                0x0800258c       0x6a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800258c                HAL_UART_Transmit_IT
+ *fill*         0x080025f6        0x2 
  .text.HAL_UART_IRQHandler
-                0x080025bc      0x524 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080025bc                HAL_UART_IRQHandler
+                0x080025f8      0x524 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080025f8                HAL_UART_IRQHandler
  .text.HAL_UART_TxCpltCallback
-                0x08002ae0       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08002ae0                HAL_UART_TxCpltCallback
+                0x08002b1c       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002b1c                HAL_UART_TxCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08002af2       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08002af2                HAL_UART_ErrorCallback
+                0x08002b2e       0x12 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002b2e                HAL_UART_ErrorCallback
  .text.HAL_UARTEx_RxEventCallback
-                0x08002b04       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08002b04                HAL_UARTEx_RxEventCallback
+                0x08002b40       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002b40                HAL_UARTEx_RxEventCallback
  .text.UART_EndRxTransfer
-                0x08002b1a       0xc4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002b56       0xc4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x08002bde       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002c1a       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08002c06       0x9e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002c42       0x9e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x08002ca4       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002ce0       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Receive_IT
-                0x08002cd4      0x17c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002d10      0x17c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x08002e50      0x11c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002e8c      0x11c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.MX_ADC1_Init
-                0x08002f6c       0xd4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
-                0x08002f6c                MX_ADC1_Init
+                0x08002fa8       0xd4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+                0x08002fa8                MX_ADC1_Init
  .text.HAL_ADC_MspInit
-                0x08003040       0xe0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
-                0x08003040                HAL_ADC_MspInit
+                0x0800307c       0xe0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+                0x0800307c                HAL_ADC_MspInit
  .text.MX_CRC_Init
-                0x08003120       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
-                0x08003120                MX_CRC_Init
+                0x0800315c       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+                0x0800315c                MX_CRC_Init
  .text.HAL_CRC_MspInit
-                0x08003148       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
-                0x08003148                HAL_CRC_MspInit
+                0x08003184       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+                0x08003184                HAL_CRC_MspInit
  .text.MX_DMA_Init
-                0x08003184       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
-                0x08003184                MX_DMA_Init
+                0x080031c0       0x3c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+                0x080031c0                MX_DMA_Init
  .text.MX_GPIO_Init
-                0x080031c0      0x120 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
-                0x080031c0                MX_GPIO_Init
+                0x080031fc      0x120 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+                0x080031fc                MX_GPIO_Init
  .text.HAL_MspInit
-                0x080032e0       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x080032e0                HAL_MspInit
+                0x0800331c       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0800331c                HAL_MspInit
  .text.NMI_Handler
-                0x08003344        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003344                NMI_Handler
+                0x08003380        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003380                NMI_Handler
  .text.HardFault_Handler
-                0x0800334a        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x0800334a                HardFault_Handler
+                0x08003386        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003386                HardFault_Handler
  .text.MemManage_Handler
-                0x08003350        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003350                MemManage_Handler
+                0x0800338c        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800338c                MemManage_Handler
  .text.BusFault_Handler
-                0x08003356        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003356                BusFault_Handler
+                0x08003392        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003392                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800335c        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x0800335c                UsageFault_Handler
+                0x08003398        0x6 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003398                UsageFault_Handler
  .text.SVC_Handler
-                0x08003362        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003362                SVC_Handler
+                0x0800339e        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800339e                SVC_Handler
  .text.DebugMon_Handler
-                0x0800336e        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x0800336e                DebugMon_Handler
+                0x080033aa        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033aa                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800337a        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x0800337a                PendSV_Handler
+                0x080033b6        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033b6                PendSV_Handler
  .text.SysTick_Handler
-                0x08003386        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003386                SysTick_Handler
+                0x080033c2        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033c2                SysTick_Handler
  .text.EXTI4_IRQHandler
-                0x08003392        0xe CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x08003392                EXTI4_IRQHandler
+                0x080033ce        0xe CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033ce                EXTI4_IRQHandler
  .text.DMA1_Channel1_IRQHandler
-                0x080033a0       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x080033a0                DMA1_Channel1_IRQHandler
+                0x080033dc       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033dc                DMA1_Channel1_IRQHandler
  .text.ADC1_2_IRQHandler
-                0x080033b4       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x080033b4                ADC1_2_IRQHandler
+                0x080033f0       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x080033f0                ADC1_2_IRQHandler
  .text.EXTI9_5_IRQHandler
-                0x080033c8       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x080033c8                EXTI9_5_IRQHandler
- *fill*         0x080033de        0x2 
+                0x08003404       0x16 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003404                EXTI9_5_IRQHandler
+ *fill*         0x0800341a        0x2 
  .text.USART1_IRQHandler
-                0x080033e0       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x080033e0                USART1_IRQHandler
+                0x0800341c       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800341c                USART1_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x080033f4       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
-                0x080033f4                EXTI15_10_IRQHandler
+                0x08003430       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x08003430                EXTI15_10_IRQHandler
  .text.SystemInit
-                0x08003404        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
-                0x08003404                SystemInit
+                0x08003440        0xc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+                0x08003440                SystemInit
  .text.MX_USART1_UART_Init
-                0x08003410       0x54 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
-                0x08003410                MX_USART1_UART_Init
+                0x0800344c       0x54 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+                0x0800344c                MX_USART1_UART_Init
  .text.HAL_UART_MspInit
-                0x08003464       0xa8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
-                0x08003464                HAL_UART_MspInit
- .text.memset   0x0800350c       0xa0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
-                0x0800350c                memset
+                0x080034a0       0xa8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+                0x080034a0                HAL_UART_MspInit
+ .text.memset   0x08003548       0xa0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
+                0x08003548                memset
  .text.__libc_init_array
-                0x080035ac       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
-                0x080035ac                __libc_init_array
+                0x080035e8       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
+                0x080035e8                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080035fc        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
-                0x080035fc                __retarget_lock_acquire_recursive
+                0x08003638        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x08003638                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08003600        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
-                0x08003600                __retarget_lock_release_recursive
+                0x0800363c        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x0800363c                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08003604       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x08003618        0xc c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
-                0x08003618                atexit
+                0x08003640       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08003654        0xc c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+                0x08003654                atexit
  .text.__libc_fini_array
-                0x08003624       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
-                0x08003624                __libc_fini_array
+                0x08003660       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
+                0x08003660                __libc_fini_array
  .text.__register_exitproc
-                0x0800364c       0x80 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
-                0x0800364c                __register_exitproc
+                0x08003688       0x80 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08003688                __register_exitproc
  *(.glue_7)
- .glue_7        0x080036cc        0x0 linker stubs
+ .glue_7        0x08003708        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080036cc        0x0 linker stubs
+ .glue_7t       0x08003708        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080036cc        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08003708        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x080036cc        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x080036cc                _init
- .init          0x080036d0        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08003708        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08003708                _init
+ .init          0x0800370c        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x080036d8        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x080036d8                _fini
- .fini          0x080036dc        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
-                0x080036e4                        . = ALIGN (0x4)
-                0x080036e4                        _etext = .
+ .fini          0x08003714        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08003714                _fini
+ .fini          0x08003718        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+                0x08003720                        . = ALIGN (0x4)
+                0x08003720                        _etext = .
 
-.vfp11_veneer   0x080036e4        0x0
- .vfp11_veneer  0x080036e4        0x0 linker stubs
+.vfp11_veneer   0x08003720        0x0
+ .vfp11_veneer  0x08003720        0x0 linker stubs
 
-.v4_bx          0x080036e4        0x0
- .v4_bx         0x080036e4        0x0 linker stubs
+.v4_bx          0x08003720        0x0
+ .v4_bx         0x08003720        0x0 linker stubs
 
-.iplt           0x080036e4        0x0
- .iplt          0x080036e4        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08003720        0x0
+ .iplt          0x08003720        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x080036e4       0x2c
-                0x080036e4                        . = ALIGN (0x4)
+.rodata         0x08003720       0x2c
+                0x08003720                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.aPLLMULFactorTable.1
-                0x080036e4       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08003720       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x080036f4        0x2 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x080036f6        0x2 
+                0x08003730        0x2 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08003732        0x2 
  .rodata.AHBPrescTable
-                0x080036f8       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
-                0x080036f8                AHBPrescTable
+                0x08003734       0x10 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+                0x08003734                AHBPrescTable
  .rodata.APBPrescTable
-                0x08003708        0x8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
-                0x08003708                APBPrescTable
-                0x08003710                        . = ALIGN (0x4)
+                0x08003744        0x8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+                0x08003744                APBPrescTable
+                0x0800374c                        . = ALIGN (0x4)
 
-.rel.dyn        0x08003710        0x0
- .rel.iplt      0x08003710        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0800374c        0x0
+ .rel.iplt      0x0800374c        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x08003710        0x0
-                0x08003710                        . = ALIGN (0x4)
+.ARM.extab      0x0800374c        0x0
+                0x0800374c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08003710                        . = ALIGN (0x4)
+                0x0800374c                        . = ALIGN (0x4)
 
-.ARM            0x08003710        0x0
-                0x08003710                        . = ALIGN (0x4)
-                0x08003710                        __exidx_start = .
+.ARM            0x0800374c        0x0
+                0x0800374c                        . = ALIGN (0x4)
+                0x0800374c                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08003710                        __exidx_end = .
-                0x08003710                        . = ALIGN (0x4)
+                0x0800374c                        __exidx_end = .
+                0x0800374c                        . = ALIGN (0x4)
 
-.preinit_array  0x08003710        0x0
-                0x08003710                        . = ALIGN (0x4)
-                0x08003710                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0800374c        0x0
+                0x0800374c                        . = ALIGN (0x4)
+                0x0800374c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003710                        PROVIDE (__preinit_array_end = .)
-                0x08003710                        . = ALIGN (0x4)
+                0x0800374c                        PROVIDE (__preinit_array_end = .)
+                0x0800374c                        . = ALIGN (0x4)
 
-.init_array     0x08003710        0x8
-                0x08003710                        . = ALIGN (0x4)
-                0x08003710                        PROVIDE (__init_array_start = .)
+.init_array     0x0800374c        0x8
+                0x0800374c                        . = ALIGN (0x4)
+                0x0800374c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08003710        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x0800374c        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08003714        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08003718                        PROVIDE (__init_array_end = .)
-                0x08003718                        . = ALIGN (0x4)
+ .init_array    0x08003750        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08003754                        PROVIDE (__init_array_end = .)
+                0x08003754                        . = ALIGN (0x4)
 
-.fini_array     0x08003718        0x4
-                0x08003718                        . = ALIGN (0x4)
-                0x08003718                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08003754        0x4
+                0x08003754                        . = ALIGN (0x4)
+                0x08003754                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003718        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0800371c                        PROVIDE (__fini_array_end = .)
-                0x0800371c                        . = ALIGN (0x4)
-                0x0800371c                        _sidata = LOADADDR (.data)
+ .fini_array    0x08003754        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08003758                        PROVIDE (__fini_array_end = .)
+                0x08003758                        . = ALIGN (0x4)
+                0x08003758                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x10 load address 0x0800371c
+.data           0x20000000       0x10 load address 0x08003758
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3649,17 +3652,17 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
                 0x20000010                        _edata = .
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x0800372c
+                0x20000010        0x0 load address 0x08003768
  .tm_clone_table
                 0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x0800372c
+.igot.plt       0x20000010        0x0 load address 0x08003768
  .igot.plt      0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x20000010                        . = ALIGN (0x4)
 
-.bss            0x20000010      0x2ac load address 0x0800372c
+.bss            0x20000010      0x2ac load address 0x08003768
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.bss)
@@ -3722,7 +3725,7 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
                 0x200002bc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200002bc      0x604 load address 0x0800372c
+                0x200002bc      0x604 load address 0x08003768
                 0x200002c0                        . = ALIGN (0x8)
  *fill*         0x200002bc        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -3811,140 +3814,140 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libc
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libm.a
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xaf88
- .debug_info    0x00000000      0x899 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
- .debug_info    0x00000899       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
- .debug_info    0x000008c9      0xb46 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
- .debug_info    0x0000140f      0x6df CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00001aee      0xc49 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
- .debug_info    0x00002737      0xa09 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
- .debug_info    0x00003140      0xa62 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00003ba2      0x378 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_info    0x00003f1a      0x6cb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x000045e5      0x5a4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00004b89      0x7ce CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00005357      0x3b9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_info    0x00005710     0x2fa1 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x000086b1      0x969 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
- .debug_info    0x0000901a      0x318 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
- .debug_info    0x00009332      0x2aa CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
- .debug_info    0x000095dc      0x40d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
- .debug_info    0x000099e9      0x1ea CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00009bd3      0x895 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000a468      0x21b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x0000a683      0x905 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+.debug_info     0x00000000     0xafad
+ .debug_info    0x00000000      0x8be CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+ .debug_info    0x000008be       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+ .debug_info    0x000008ee      0xb46 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+ .debug_info    0x00001434      0x6df CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00001b13      0xc49 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_info    0x0000275c      0xa09 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_info    0x00003165      0xa62 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00003bc7      0x378 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_info    0x00003f3f      0x6cb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x0000460a      0x5a4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00004bae      0x7ce CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x0000537c      0x3b9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_info    0x00005735     0x2fa1 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x000086d6      0x969 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+ .debug_info    0x0000903f      0x318 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+ .debug_info    0x00009357      0x2aa CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+ .debug_info    0x00009601      0x40d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+ .debug_info    0x00009a0e      0x1ea CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00009bf8      0x895 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000a48d      0x21b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x0000a6a8      0x905 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
-.debug_abbrev   0x00000000     0x268f
- .debug_abbrev  0x00000000      0x220 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
- .debug_abbrev  0x00000220       0x24 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
- .debug_abbrev  0x00000244      0x25c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
- .debug_abbrev  0x000004a0      0x201 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x000006a1      0x225 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
- .debug_abbrev  0x000008c6      0x249 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
- .debug_abbrev  0x00000b0f      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000e07      0x1b1 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_abbrev  0x00000fb8      0x20b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x000011c3      0x1ca CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x0000138d      0x2b3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x00001640      0x188 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x000017c8      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x00001ac0      0x211 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
- .debug_abbrev  0x00001cd1      0x189 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
- .debug_abbrev  0x00001e5a       0xfc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
- .debug_abbrev  0x00001f56      0x161 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
- .debug_abbrev  0x000020b7       0xdb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00002192      0x1b9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x0000234b      0x13f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x0000248a      0x205 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+.debug_abbrev   0x00000000     0x2691
+ .debug_abbrev  0x00000000      0x222 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+ .debug_abbrev  0x00000222       0x24 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+ .debug_abbrev  0x00000246      0x25c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+ .debug_abbrev  0x000004a2      0x201 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x000006a3      0x225 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_abbrev  0x000008c8      0x249 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_abbrev  0x00000b11      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000e09      0x1b1 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_abbrev  0x00000fba      0x20b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x000011c5      0x1ca CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000138f      0x2b3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001642      0x188 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x000017ca      0x2f8 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00001ac2      0x211 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+ .debug_abbrev  0x00001cd3      0x189 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+ .debug_abbrev  0x00001e5c       0xfc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+ .debug_abbrev  0x00001f58      0x161 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+ .debug_abbrev  0x000020b9       0xdb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00002194      0x1b9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x0000234d      0x13f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x0000248c      0x205 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
-.debug_aranges  0x00000000      0x988
+.debug_aranges  0x00000000      0x990
  .debug_aranges
-                0x00000000       0x38 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x00000000       0x40 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
  .debug_aranges
-                0x00000038       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+                0x00000040       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
  .debug_aranges
-                0x00000060       0x40 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x00000068       0x40 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
  .debug_aranges
-                0x000000a0       0xe0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000000a8       0xe0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000180       0xf0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x00000188       0xf0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
  .debug_aranges
-                0x00000270       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+                0x00000278       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
  .debug_aranges
-                0x000002f0      0x100 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000002f8      0x100 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x000003f0       0x50 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x000003f8       0x50 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
  .debug_aranges
-                0x00000440       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x00000448       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_aranges
-                0x000004c0       0x58 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x000004c8       0x58 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000518       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000520       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x000005a8       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x000005b0       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x000005d8      0x208 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x000005e0      0x208 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_aranges
-                0x000007e0       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+                0x000007e8       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
  .debug_aranges
-                0x00000810       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+                0x00000818       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
  .debug_aranges
-                0x00000840       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+                0x00000848       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
  .debug_aranges
-                0x00000860       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+                0x00000868       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000880       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000888       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x000008a0       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x000008a8       0x90 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x00000930       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+                0x00000938       0x28 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x00000958       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+                0x00000960       0x30 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
 .debug_rnglists
-                0x00000000      0x72a
+                0x00000000      0x730
  .debug_rnglists
-                0x00000000       0x26 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                0x00000000       0x2c CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
  .debug_rnglists
-                0x00000026       0x19 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+                0x0000002c       0x19 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
  .debug_rnglists
-                0x0000003f       0x2e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+                0x00000045       0x2e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
  .debug_rnglists
-                0x0000006d       0xa3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000073       0xa3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_rnglists
-                0x00000110       0xbc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+                0x00000116       0xbc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
  .debug_rnglists
-                0x000001cc       0x65 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+                0x000001d2       0x65 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
  .debug_rnglists
-                0x00000231       0xbb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000237       0xbb CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_rnglists
-                0x000002ec       0x37 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x000002f2       0x37 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
  .debug_rnglists
-                0x00000323       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x00000329       0x64 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_rnglists
-                0x00000387       0x3f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000038d       0x3f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_rnglists
-                0x000003c6       0x6c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000003cc       0x6c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_rnglists
-                0x00000432       0x21 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x00000438       0x21 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x00000453      0x1bc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000459      0x1bc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_rnglists
-                0x0000060f       0x21 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+                0x00000615       0x21 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
  .debug_rnglists
-                0x00000630       0x1f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+                0x00000636       0x1f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
  .debug_rnglists
-                0x0000064f       0x13 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+                0x00000655       0x13 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
  .debug_rnglists
-                0x00000662       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+                0x00000668       0x14 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x00000676       0x13 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0000067c       0x13 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000689       0x67 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+                0x0000068f       0x67 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x000006f0       0x1a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+                0x000006f6       0x1a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
-                0x0000070a       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+                0x00000710       0x20 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
 .debug_macro    0x00000000    0x16a3e
  .debug_macro   0x00000000      0x1df CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
@@ -4006,71 +4009,71 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg
  .debug_macro   0x000166d1      0x1aa CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x0001687b      0x1c3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
-.debug_line     0x00000000     0xb6d3
- .debug_line    0x00000000      0x68d CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
- .debug_line    0x0000068d       0x78 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
- .debug_line    0x00000705      0x645 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
- .debug_line    0x00000d4a      0x7a0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000014ea      0xe1d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
- .debug_line    0x00002307      0xb57 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
- .debug_line    0x00002e5e      0x98c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x000037ea      0x63b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_line    0x00003e25      0xbf9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00004a1e      0x824 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00005242      0xba9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00005deb      0x6ea CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_line    0x000064d5     0x26e9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x00008bbe      0x5b7 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
- .debug_line    0x00009175      0x530 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
- .debug_line    0x000096a5      0x4f0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
- .debug_line    0x00009b95      0x527 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
- .debug_line    0x0000a0bc      0x4f5 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0000a5b1      0x648 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000abf9      0x573 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000b16c      0x567 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+.debug_line     0x00000000     0xb6e4
+ .debug_line    0x00000000      0x69e CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+ .debug_line    0x0000069e       0x78 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+ .debug_line    0x00000716      0x645 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+ .debug_line    0x00000d5b      0x7a0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x000014fb      0xe1d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_line    0x00002318      0xb57 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_line    0x00002e6f      0x98c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000037fb      0x63b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_line    0x00003e36      0xbf9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x00004a2f      0x824 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00005253      0xba9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00005dfc      0x6ea CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_line    0x000064e6     0x26e9 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x00008bcf      0x5b7 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+ .debug_line    0x00009186      0x530 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+ .debug_line    0x000096b6      0x4f0 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+ .debug_line    0x00009ba6      0x527 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+ .debug_line    0x0000a0cd      0x4f5 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000a5c2      0x648 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000ac0a      0x573 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000b17d      0x567 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
-.debug_str      0x00000000    0x81c85
- .debug_str     0x00000000    0x7f4ee CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
-                              0x7f8d3 (size before relaxing)
- .debug_str     0x0007f4ee       0x67 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
+.debug_str      0x00000000    0x81c94
+ .debug_str     0x00000000    0x7f4fd CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+                              0x7f8e2 (size before relaxing)
+ .debug_str     0x0007f4fd       0x67 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Startup/startup_stm32f103c6tx.s.obj
                                  0xaa (size before relaxing)
- .debug_str     0x0007f555      0x3d4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+ .debug_str     0x0007f564      0x3d4 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
                               0x7fb57 (size before relaxing)
- .debug_str     0x0007f929      0x63f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x0007f938      0x63f CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x7f75a (size before relaxing)
- .debug_str     0x0007ff68      0x412 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_str     0x0007ff77      0x412 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
                               0x7f745 (size before relaxing)
- .debug_str     0x0008037a      0x300 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_str     0x00080389      0x300 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
                               0x7f715 (size before relaxing)
- .debug_str     0x0008067a      0x2e3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00080689      0x2e3 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x7f6a6 (size before relaxing)
- .debug_str     0x0008095d       0xdc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_str     0x0008096c       0xdc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
                               0x7f1a3 (size before relaxing)
- .debug_str     0x00080a39      0x239 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x00080a48      0x239 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                               0x7f40a (size before relaxing)
- .debug_str     0x00080c72      0x34e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00080c81      0x34e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x7f3e7 (size before relaxing)
- .debug_str     0x00080fc0      0x26d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00080fcf      0x26d CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x7f490 (size before relaxing)
- .debug_str     0x0008122d       0xac CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_str     0x0008123c       0xac CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
                               0x7f1e0 (size before relaxing)
- .debug_str     0x000812d9      0x643 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x000812e8      0x643 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x7fb01 (size before relaxing)
- .debug_str     0x0008191c       0x5e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+ .debug_str     0x0008192b       0x5e CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
                               0x7fa32 (size before relaxing)
- .debug_str     0x0008197a       0x44 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+ .debug_str     0x00081989       0x44 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
                               0x7f46f (size before relaxing)
- .debug_str     0x000819be       0x3a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+ .debug_str     0x000819cd       0x3a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
                               0x7f5aa (size before relaxing)
- .debug_str     0x000819f8       0x3b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+ .debug_str     0x00081a07       0x3b CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
                               0x7f653 (size before relaxing)
- .debug_str     0x00081a33       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00081a42       0x48 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x7f30e (size before relaxing)
- .debug_str     0x00081a7b      0x149 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00081a8a      0x149 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
                               0x7f93e (size before relaxing)
- .debug_str     0x00081bc4       0x7a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00081bd3       0x7a CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
                               0x7f061 (size before relaxing)
- .debug_str     0x00081c3e       0x47 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+ .debug_str     0x00081c4d       0x47 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
                               0x7faaf (size before relaxing)
 
 .comment        0x00000000       0x45
@@ -4096,34 +4099,34 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg
  .comment       0x00000045       0x46 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
 
-.debug_frame    0x00000000     0x2518
- .debug_frame   0x00000000       0xa8 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
- .debug_frame   0x000000a8       0xbc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
- .debug_frame   0x00000164      0x334 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00000498      0x40c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
- .debug_frame   0x000008a4      0x200 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
- .debug_frame   0x00000aa4      0x428 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00000ecc      0x120 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_frame   0x00000fec      0x208 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x000011f4      0x14c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00001340      0x218 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00001558       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
- .debug_frame   0x000015d8      0x944 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00001f1c       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
- .debug_frame   0x00001f98       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
- .debug_frame   0x00002014       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
- .debug_frame   0x00002048       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
- .debug_frame   0x0000207c       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x000020b4      0x1ac CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00002260       0x58 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x000022b8       0x74 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
- .debug_frame   0x0000232c       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
- .debug_frame   0x00002358       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
- .debug_frame   0x00002384       0xb0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
- .debug_frame   0x00002434       0x5c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
- .debug_frame   0x00002490       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
- .debug_frame   0x000024b0       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
- .debug_frame   0x000024e4       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+.debug_frame    0x00000000     0x2540
+ .debug_frame   0x00000000       0xd0 CMakeFiles/rc_car_new.dir/src/data_processing.c.obj
+ .debug_frame   0x000000d0       0xbc CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/main.c.obj
+ .debug_frame   0x0000018c      0x334 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x000004c0      0x40c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj
+ .debug_frame   0x000008cc      0x200 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj
+ .debug_frame   0x00000acc      0x428 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x00000ef4      0x120 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_frame   0x00001014      0x208 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x0000121c      0x14c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00001368      0x218 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00001580       0x80 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00001600      0x944 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00001f44       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/adc.c.obj
+ .debug_frame   0x00001fc0       0x7c CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/crc.c.obj
+ .debug_frame   0x0000203c       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/dma.c.obj
+ .debug_frame   0x00002070       0x34 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/gpio.c.obj
+ .debug_frame   0x000020a4       0x38 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x000020dc      0x1ac CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00002288       0x58 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x000022e0       0x74 CMakeFiles/rc_car_new.dir/C_/Works/STM32_Projects/rc_joystick/common/Core/Src/usart.c.obj
+ .debug_frame   0x00002354       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
+ .debug_frame   0x00002380       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
+ .debug_frame   0x000023ac       0xb0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+ .debug_frame   0x0000245c       0x5c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x000024b8       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+ .debug_frame   0x000024d8       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
+ .debug_frame   0x0000250c       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
 
 .debug_line_str
                 0x00000000       0x8e
