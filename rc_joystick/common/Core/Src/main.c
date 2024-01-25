@@ -108,8 +108,10 @@ int main(void)
   while (1)
   {
 	  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_raw_data, ADC_CHANNELS_NUM);
-//	  uint8_t* joy_data = gpio_joystick_read_in(joybtn_right_state, joybtn_left_state, btn_left_state, btn_right_state);
-//	  transmit_data_to_usart(adc_raw_data, joy_data);
+	  uint8_t* joy_data = gpio_joystick_read_in(joybtn_right_state, joybtn_left_state, btn_left_state, btn_right_state);
+	  
+	  transmit_data_to_usart(adc_raw_data, joy_data);
+	  
 	  led_control(btn_left_state, btn_right_state);
 	  
     /* USER CODE END WHILE */
@@ -185,7 +187,14 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	{
 		btn_left_state = !btn_left_state;
 	}
-
+	if (GPIO_Pin == JOYBTN_LEFT_Pin)
+	{
+		joybtn_left_state = !joybtn_left_state;
+	}
+	if (GPIO_Pin == JOYBTN_RIGHT_Pin)
+	{
+		joybtn_right_state = !joybtn_right_state;
+	}
 }
 
 /* USER CODE END 4 */
