@@ -41,18 +41,18 @@ void transmit_data_to_usart(uint16_t* adc_raw_data, uint8_t* gpio_data)
 {
 	for (uint8_t i = 0; i < 4; i++)
 	{
-		data_to_transmit[i] = convert16_to_8(&adc_raw_data[0])[i];
-		data_to_transmit[i + 4] = convert16_to_8(&adc_raw_data[1])[i];
-		data_to_transmit[i + 8] = convert16_to_8(&adc_raw_data[2])[i];
-		data_to_transmit[i + 12] = convert16_to_8(&adc_raw_data[3])[i];
+		data_to_transmit[i] = convert16_to_8(&adc_raw_data[0])[i];        //x_left 
+		data_to_transmit[i + 4] = convert16_to_8(&adc_raw_data[1])[i];    //y_left_
+		data_to_transmit[i + 8] = convert16_to_8(&adc_raw_data[2])[i];    //x_right
+		data_to_transmit[i + 12] = convert16_to_8(&adc_raw_data[3])[i];   //y_right
 	}
 	
-	data_to_transmit[16] = *gpio_data;
-	data_to_transmit[17] = *(gpio_data+1);
-	data_to_transmit[18] = *(gpio_data+2);
-	data_to_transmit[19] = *(gpio_data+3);
+	data_to_transmit[16] = *gpio_data;           //joybtn_right_state;
+	data_to_transmit[17] = *(gpio_data + 1);     //joybtn_left_state;
+	data_to_transmit[18] = *(gpio_data + 2);     //btn_left_state;
+	data_to_transmit[19] = *(gpio_data + 3);     //btn_right_state;
 	  
-	uint32_t crc_result =  HAL_CRC_Calculate(&hcrc, (uint32_t*)data_to_transmit, 4);
+	uint32_t crc_result =  HAL_CRC_Calculate(&hcrc, (uint32_t*)data_to_transmit, AMOUNT_BYTES_TO_TRANSMIT - 4);
 	for (uint8_t i = 0; i < 4; i++)
 	{
 		data_to_transmit[AMOUNT_BYTES_TO_TRANSMIT - 4 + i] = convert32_to_8(&crc_result)[i];

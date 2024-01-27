@@ -26,7 +26,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "data_processing.h"
+#include "motor.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,6 +49,9 @@
 /* USER CODE BEGIN PV */
 uint8_t data_from_joystick[24];
 uint8_t get_message_from_joystick = 0;
+uint8_t btns_positions[4];
+uint16_t joys_positions[4];
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -96,7 +100,9 @@ int main(void)
   MX_USART1_UART_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
+  motors_init();
 
+	motor_set_direction_and_duty(4, 1, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -104,8 +110,11 @@ int main(void)
   while (1)
   {
 	  HAL_UART_Receive_IT(&huart1, data_from_joystick, 24);
-//	  if(get_message_from_joystick) 
-		  
+	  if (get_message_from_joystick) read_data_in(data_from_joystick, joys_positions, btns_positions);
+	  for (uint8_t i = 0; i < 4; i++)
+	  {
+		  motor_set_direction_and_duty(i, 1, 1300);
+	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

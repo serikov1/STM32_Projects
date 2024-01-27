@@ -18,7 +18,10 @@ list(APPEND PROJECT_SOURCES
 
 
         "${PROJECT_SOURCE_DIR}/include/data_processing.h"
+        "${PROJECT_SOURCE_DIR}/include/motor.h"
+
         "${PROJECT_SOURCE_DIR}/src/data_processing.c"
+        "${PROJECT_SOURCE_DIR}/src/motor.c"
 
         "${PROJECT_SOURCE_DIR}/../common/Startup/startup_stm32f103c6tx.s"
         "${PROJECT_SOURCE_DIR}/../common/Core/Src/main.c"
@@ -44,11 +47,13 @@ list(APPEND INCLUDE_DIRS
     
         set(NAME_FW "rc_car_new")
 
-    add_bsp_based_executable(NAME rc_car_new
+    add_bsp_based_executable(
+    NAME rc_car_new
     SOURCES ${PROJECT_SOURCES}
-	GENERATE_BIN
-	GENERATE_MAP
-    LINKER_SCRIPT "${PROJECT_SOURCE_DIR}/bsp/STM32F103C6TX_FLASH.ld")
+    GENERATE_BIN
+    GENERATE_MAP
+    LINKER_SCRIPT ${PROJECT_SOURCE_DIR}/bsp/STM32F103C6TX_FLASH.ld)
 
     
     target_include_directories(${NAME_FW} PUBLIC ${INCLUDE_DIRS})
+set_source_files_properties(motor.h PROPERTIES HEADER_FILE_ONLY TRUE)

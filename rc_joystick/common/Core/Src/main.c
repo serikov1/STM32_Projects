@@ -100,7 +100,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
-	HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_raw_data, ADC_CHANNELS_NUM);
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_raw_data, ADC_CHANNELS_NUM);
   /* USER CODE END 2 */
 
   /* Infinite loop */
