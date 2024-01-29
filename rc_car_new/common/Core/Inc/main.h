@@ -77,10 +77,18 @@ void Error_Handler(void);
 #define PWM1_FL_GPIO_Port GPIOB
 #define PWM0_FL_Pin GPIO_PIN_1
 #define PWM0_FL_GPIO_Port GPIOB
+#define OTW_F_Pin GPIO_PIN_10
+#define OTW_F_GPIO_Port GPIOB
+#define OTW_B_Pin GPIO_PIN_11
+#define OTW_B_GPIO_Port GPIOB
 #define BUZZER_Pin GPIO_PIN_12
 #define BUZZER_GPIO_Port GPIOB
 #define LED_F_Pin GPIO_PIN_13
 #define LED_F_GPIO_Port GPIOB
+#define RESET_F_Pin GPIO_PIN_14
+#define RESET_F_GPIO_Port GPIOB
+#define RESET_B_Pin GPIO_PIN_15
+#define RESET_B_GPIO_Port GPIOB
 #define PWM_SERVO_Pin GPIO_PIN_8
 #define PWM_SERVO_GPIO_Port GPIOA
 
