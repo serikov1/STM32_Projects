@@ -65,35 +65,25 @@ void Error_Handler(void);
 #define PWM1_BR_GPIO_Port GPIOA
 #define PWM0_BR_Pin GPIO_PIN_3
 #define PWM0_BR_GPIO_Port GPIOA
-#define FAULT_F_Pin GPIO_PIN_4
-#define FAULT_F_GPIO_Port GPIOA
+#define RESET_Pin GPIO_PIN_4
+#define RESET_GPIO_Port GPIOA
 #define FAULT_B_Pin GPIO_PIN_5
 #define FAULT_B_GPIO_Port GPIOA
-#define PWM0_FR_Pin GPIO_PIN_6
-#define PWM0_FR_GPIO_Port GPIOA
-#define PWM1_FR_Pin GPIO_PIN_7
-#define PWM1_FR_GPIO_Port GPIOA
-#define PWM1_FL_Pin GPIO_PIN_0
-#define PWM1_FL_GPIO_Port GPIOB
-#define PWM0_FL_Pin GPIO_PIN_1
-#define PWM0_FL_GPIO_Port GPIOB
-#define OTW_F_Pin GPIO_PIN_10
-#define OTW_F_GPIO_Port GPIOB
 #define OTW_B_Pin GPIO_PIN_11
 #define OTW_B_GPIO_Port GPIOB
 #define BUZZER_Pin GPIO_PIN_12
 #define BUZZER_GPIO_Port GPIOB
 #define LED_F_Pin GPIO_PIN_13
 #define LED_F_GPIO_Port GPIOB
-#define RESET_F_Pin GPIO_PIN_14
-#define RESET_F_GPIO_Port GPIOB
-#define RESET_B_Pin GPIO_PIN_15
-#define RESET_B_GPIO_Port GPIOB
 #define PWM_SERVO_Pin GPIO_PIN_8
 #define PWM_SERVO_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 #define AMOUNT_BYTES_TO_RECEIVE 24
+#define LEFT 0
+#define RIGHT 1
+#define SERVO 2
+#define NUMBER_OF_MOTORS 3              // 2 motors and servo
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

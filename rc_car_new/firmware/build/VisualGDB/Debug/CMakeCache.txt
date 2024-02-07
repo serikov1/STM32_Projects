@@ -122,6 +122,9 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of compile commands during generation.
 CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
+//Value Computed by CMake.
+CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/pkgRedirects
+
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/rc_car_new
 
@@ -225,8 +228,11 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=C:/sysgcc/arm-eabi/bin/arm-none-eabi-strip.exe
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:\Works\STM32_Projects\rc_car_new\firmware/build/VisualGDB/Debug/toolchain.cmake
+//Path to a program.
+CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
+
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -252,6 +258,9 @@ rc_car_new_BINARY_DIR:STATIC=C:/Works/STM32_Projects/rc_car_new/firmware/build/V
 
 //Specifies the BSP alias for the  target.
 rc_car_new_BSP_ALIAS:STRING=BSP
+
+//Value Computed by CMake
+rc_car_new_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 rc_car_new_SOURCE_DIR:STATIC=C:/Works/STM32_Projects/rc_car_new/firmware
@@ -286,9 +295,9 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Works/STM32_Projects/rc_car_new/firmware/build/V
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
-CMAKE_CACHE_MINOR_VERSION:INTERNAL=20
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=28
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=C:/Users/Admin/AppData/Local/VisualGDB/CMake/bin/cmake.exe
 //Path to cpack program executable.
@@ -379,7 +388,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=C:/Users/Admin/AppData/Local/VisualGDB/CMake/share/cmake-3.20
+CMAKE_ROOT:INTERNAL=C:/Users/Admin/AppData/Local/VisualGDB/CMake/share/cmake-3.28
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -406,6 +415,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_TAPI
+CMAKE_TAPI-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 DUMMY_SOURCE_FILE:INTERNAL=C:/Program Files (x86)/Sysprogs/VisualGDB/CMake/embedded/dummy.c

@@ -19,7 +19,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "crc.h"
-#include "i2c.h"
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
@@ -47,7 +46,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t data_from_joystick[24];
+uint8_t data_from_joystick[AMOUNT_BYTES_TO_RECEIVE];
 uint8_t get_message_from_joystick = 0;
 uint8_t btns_positions[4];
 uint16_t joys_positions[4];
@@ -93,28 +92,22 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_I2C1_Init();
   MX_TIM1_Init();
   MX_TIM2_Init();
-  MX_TIM3_Init();
   MX_USART1_UART_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
   motors_init();
-
-	motor_set_direction_and_duty(4, 1, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_UART_Receive_IT(&huart1, data_from_joystick, 24);
+	  HAL_UART_Receive_IT(&huart1, data_from_joystick, AMOUNT_BYTES_TO_RECEIVE);
 	  if (get_message_from_joystick) read_data_in(data_from_joystick, joys_positions, btns_positions);
-	  for (uint8_t i = 0; i < 4; i++)
-	  {
-		  motor_set_direction_and_duty(i, 1, 1300);
-	  }
+	  
+	  //motor_set_direction_and_duty(i, 1, 1300);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
