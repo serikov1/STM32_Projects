@@ -1,0 +1,5 @@
+C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/BSP.dir
+C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/rc_car_new.dir
+C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/rc_car_new-bin.dir
+C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/edit_cache.dir
+C:/Works/STM32_Projects/rc_car_new/firmware/build/VisualGDB/Debug/CMakeFiles/rebuild_cache.dir
