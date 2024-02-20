@@ -1,5 +1,11 @@
 #include "motor.h"
 
+
+int16_t ABS(int16_t value)
+{
+	return value > 0 ? value : -value;
+}
+
 void motors_init()
 {
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1); //PWM1_FR
@@ -31,8 +37,10 @@ void motors_init()
 // 1 high, 3 PWM - reverse
 // 0 high, 3 high - brake
 
-void motor_set_direction_and_duty(uint8_t motor, uint8_t dir, uint16_t duty)
+void motor_set_direction_and_duty(uint8_t motor, int16_t duty)
 {
+	_Bool dir = duty > 0;
+	duty = ABS(duty);
 	switch (motor)
 	{
 		case B_LEFT: (dir) ? (TIM2->CCR2 = duty) && (TIM2->CCR1 = htim2.Init.Period) : (TIM2->CCR3 = duty) && (TIM2->CCR4 = htim2.Init.Period); break;   //back left motor (1)
@@ -45,21 +53,30 @@ void motor_set_direction_and_duty(uint8_t motor, uint8_t dir, uint16_t duty)
 	}
 }
 
-int abs(int value)
-{
-	return value > 0 ? value : -value;
-}
+
 
 void routine(uint16_t joys_positions[])
 {
-	double motors_pwm_prescaler = htim2.Init.Period / 100;                                        //normalization the infill of motors pwm 
-	uint16_t adc_prescaler = 4096 / 100;                                                          //normalization for the adc value from joystick
+	double motors_pwm_prescaler_FR = htim1.Init.Period / 100;                                        //normalization the infill of motors pwm
+	double motors_pwm_prescaler_BL = htim2.Init.Period / 100;                                        //normalization the infill of motors pwm
+	double motors_pwm_prescaler_BR = htim3.Init.Period / 100;                                        //normalization the infill of motors pwm
+	double motors_pwm_prescaler_FL = htim4.Init.Period / 100;                                        //normalization the infill of motors pwm
 	
-	int16_t motors_result_value = joys_positions[0] / adc_prescaler * motors_pwm_prescaler - 50;
-	int16_t servo_result_value = joys_positions[3] / adc_prescaler * motors_pwm_prescaler;
+	uint16_t motor_adc_prescaler = 4096 / 100;                                                       //normalization for the adc value from joystick for motors
+	uint16_t servo_adc_prescaler = 4096 / (MAX_SERVO - MIN_SERVO);                                   //normalization for the adc value from joystick for servo
 	
-	motor_set_direction_and_duty(0, motors_result_value > 0, abs(motors_result_value));
-	motor_set_direction_and_duty(1, motors_result_value > 0, abs(motors_result_value));
-	motor_set_direction_and_duty(2, servo_result_value);
+	int16_t motor_result_value_FR = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_FR - 50;
+	int16_t motor_result_value_BL = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_BL - 50;
+	int16_t motor_result_value_BR = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_BR - 50;
+	int16_t motor_result_value_FL = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_FL - 50;
+	
+	uint16_t servo_result_value = joys_positions[3] / servo_adc_prescaler + MIN_SERVO;
+	
+	motor_set_direction_and_duty(F_RIGHT, motor_result_value_FR * 2);
+	motor_set_direction_and_duty(B_LEFT, motor_result_value_BL * 2);
+	motor_set_direction_and_duty(B_RIGHT, motor_result_value_BL * 2);
+	motor_set_direction_and_duty(F_LEFT, motor_result_value_BL * 2);
+	
+	motor_set_direction_and_duty(SERVO, servo_result_value);
 	
 }
