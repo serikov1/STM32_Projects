@@ -25,7 +25,9 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "motor.h"
+#include "data_processing.h"
+#include "buzzer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -45,7 +47,10 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint8_t data_from_joystick[AMOUNT_BYTES_TO_RECEIVE];
+uint8_t get_message_from_joystick = 0;
+uint8_t btns_positions[4];
+uint16_t joys_positions[4];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -95,13 +100,18 @@ int main(void)
   MX_TIM15_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-
+  buzzer_init();
+  motors_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  HAL_UART_Receive_IT(&huart2, data_from_joystick, AMOUNT_BYTES_TO_RECEIVE);
+	  if (get_message_from_joystick) read_data_in(data_from_joystick, joys_positions, btns_positions);
+	  
+	  motors_routine(joys_positions);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -148,7 +158,10 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	get_message_from_joystick = 1;
+}
 /* USER CODE END 4 */
 
 /**

@@ -28,8 +28,7 @@ void motors_init()
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3); //PWM2_FL
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4); //PWM0_FL
 	
-	HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_1); //BUZZER
-	HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_2); //PWM_SERVO
+	HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_2);//PWM_SERVO
 }
 
 
@@ -55,15 +54,15 @@ void motor_set_direction_and_duty(uint8_t motor, int16_t duty)
 
 
 
-void routine(uint16_t joys_positions[])
+void motors_routine(uint16_t joys_positions[])
 {
-	double motors_pwm_prescaler_FR = htim1.Init.Period / 100;                                        //normalization the infill of motors pwm
-	double motors_pwm_prescaler_BL = htim2.Init.Period / 100;                                        //normalization the infill of motors pwm
-	double motors_pwm_prescaler_BR = htim3.Init.Period / 100;                                        //normalization the infill of motors pwm
-	double motors_pwm_prescaler_FL = htim4.Init.Period / 100;                                        //normalization the infill of motors pwm
-	
-	uint16_t motor_adc_prescaler = 4096 / 100;                                                       //normalization for the adc value from joystick for motors
-	uint16_t servo_adc_prescaler = 4096 / (MAX_SERVO - MIN_SERVO);                                   //normalization for the adc value from joystick for servo
+	double motors_pwm_prescaler_FR = htim1.Init.Period / 100;                                                 //normalization the infill of motors pwm
+	double motors_pwm_prescaler_BL = htim2.Init.Period / 100;                                                 //normalization the infill of motors pwm
+	double motors_pwm_prescaler_BR = htim3.Init.Period / 100;                                                 //normalization the infill of motors pwm
+	double motors_pwm_prescaler_FL = htim4.Init.Period / 100;                                                 //normalization the infill of motors pwm
+																									          
+	uint16_t motor_adc_prescaler = 4096 / 100;                                                                //normalization for the adc value from joystick for motors
+	uint16_t servo_adc_prescaler = 4096 / (MAX_SERVO - MIN_SERVO);                                            //normalization for the adc value from joystick for servo
 	
 	int16_t motor_result_value_FR = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_FR - 50;
 	int16_t motor_result_value_BL = joys_positions[0] / motor_adc_prescaler * motors_pwm_prescaler_BL - 50;

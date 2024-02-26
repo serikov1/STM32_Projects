@@ -12,4 +12,4 @@ extern TIM_HandleTypeDef htim15;
 
 void motors_init();                                                            //PWM settings
 void motor_set_direction_and_duty(uint8_t motor, int16_t duty);                //main function for control motor or servo
-void routine(uint16_t joys_positions[]);                                       //proccessing transmited data from joystick for control motors
+void motors_routine(uint16_t joys_positions[]);                                //proccessing transmited data from joystick for control motors
