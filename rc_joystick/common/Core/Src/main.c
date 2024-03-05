@@ -27,6 +27,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "data_processing.h"
+#include "buzzer.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,6 +101,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_CRC_Init();
   /* USER CODE BEGIN 2 */
+  buzzer_init();
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adc_raw_data, ADC_CHANNELS_NUM);
   /* USER CODE END 2 */
 

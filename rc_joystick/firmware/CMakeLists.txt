@@ -18,7 +18,10 @@ list(APPEND PROJECT_SOURCES
 
 
     "${PROJECT_SOURCE_DIR}/include/data_processing.h"
+    "${PROJECT_SOURCE_DIR}/include/buzzer.h"
+
     "${PROJECT_SOURCE_DIR}/src/data_processing.c"
+    "${PROJECT_SOURCE_DIR}/src/buzzer.c"
 
         "${PROJECT_SOURCE_DIR}/../common/Startup/startup_stm32f103c6tx.s"
         "${PROJECT_SOURCE_DIR}/../common/Core/Src/main.c"
