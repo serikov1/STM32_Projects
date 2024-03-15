@@ -17,6 +17,7 @@
 40	1141	7294224997063029	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj	43ce9cecca8cfade
 48	1164	7294224997313017	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj	e16087efd76cbf86
 7	374	7294229363308681	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj	149c4123179c4d69
+3	159	7314141493559457	CMakeFiles/rc_4wd_new.dir/src/led.c.obj	432fe6ec56b5a4a
 47	1171	7294224997413007	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	3502cdcffab55439
 42	1136	7294224996993013	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	3a26b15060c3d027
 45	1122	7294224996883015	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	a6e91c65d6f0e36e
@@ -28,15 +29,15 @@
 498	700	7306363003346642	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj	540f3af0da569761
 51	1162	7294224997263013	CMakeFiles/rc_4wd_new.dir/C_/Works/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj	7c56a7adb5445796
 36	508	7306363001296656	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	395cf982114a58d8
-113	231	7306363157993181	rc_4wd_new	d8cac661a11010bc
+194	497	7314141612921498	rc_4wd_new	67143d8d23d5d52c
 34	333	7306362999586654	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj	4ca5416b997478b1
-231	272	7306363158472319	rc_4wd_new.bin	1c84b4b0b493ec89
+498	534	7314141613399697	rc_4wd_new.bin	1c84b4b0b493ec89
 30	479	7306363001026649	CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj	579bc81fa897eaf0
-29	348	7306362999656648	CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj	659f2c61ac78683
-31	482	7306363001036648	CMakeFiles/rc_4wd_new.dir/src/motor.c.obj	323b1bc456f582a4
+4	193	7314141609945683	CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj	659f2c61ac78683
+8	292	7314141494929473	CMakeFiles/rc_4wd_new.dir/src/motor.c.obj	323b1bc456f582a4
 491	779	7306363004146641	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj	d3315140a5e4b0e2
 47	486	7306363001086645	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj	7bb75a5e12bdb54
-2	113	7306363156868143	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj	33654329f7ae326b
+14	293	7314141494919466	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj	33654329f7ae326b
 50	497	7306363001186649	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj	6b30efdcd1c50dd6
 42	504	7306363001266650	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj	4d9abceb706c5493
 343	599	7306363002206655	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj	6cbc7e9c3c7fdf17
@@ -52,4 +53,4 @@
 587	768	7306363004026649	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj	2177f09c2ccc61b3
 486	806	7306363004416637	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj	129e613621473e22
 495	875	7306363005096638	CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj	4a6ae5ebc40e69b1
-231	272	7306363158472319	C:/WORKS/STM32_Projects/rc_4wd_new/firmware/build/VisualGDB/Debug/rc_4wd_new.bin	1c84b4b0b493ec89
+498	534	7314141613399697	C:/WORKS/STM32_Projects/rc_4wd_new/firmware/build/VisualGDB/Debug/rc_4wd_new.bin	1c84b4b0b493ec89

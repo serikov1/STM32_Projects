@@ -1,8 +1,8 @@
 #pragma once
 #include "main.h"
 
-#define MAX_SERVO 1500
-#define MIN_SERVO 500
+#define MAX_SERVO 2100
+#define MIN_SERVO 750
 	
 extern TIM_HandleTypeDef htim1;
 extern TIM_HandleTypeDef htim2;

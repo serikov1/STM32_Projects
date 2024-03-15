@@ -29,6 +29,7 @@ void motors_init()
 	HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_4); //PWM0_FL
 	
 	HAL_TIM_PWM_Start(&htim15, TIM_CHANNEL_2);//PWM_SERVO
+	TIM15->CCR2 = ((MAX_SERVO - MIN_SERVO) / 2 + MIN_SERVO);
 }
 
 

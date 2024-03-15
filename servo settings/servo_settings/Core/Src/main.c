@@ -99,9 +99,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-		for(uint16_t i = 500; i < 2000; i++){
+		for(uint16_t i = 750; i < 2100; i++){
 			servo_control(i);
-			HAL_Delay(10);
+			HAL_Delay(1);
 		}
 		
     /* USER CODE END WHILE */

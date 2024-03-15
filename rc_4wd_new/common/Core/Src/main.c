@@ -28,6 +28,7 @@
 #include "motor.h"
 #include "data_processing.h"
 #include "buzzer.h"
+#include "led.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -102,6 +103,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   buzzer_init();
   motors_init();
+  led_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -109,9 +111,15 @@ int main(void)
   while (1)
   {
 	  HAL_UART_Receive_IT(&huart2, data_from_joystick, AMOUNT_BYTES_TO_RECEIVE);
-	  if (get_message_from_joystick) read_data_in(data_from_joystick, joys_positions, btns_positions);
+	  
+	  if (get_message_from_joystick)
+	  {
+		  read_data_in(data_from_joystick, joys_positions, btns_positions);
+		  get_message_from_joystick = 0;
+	  }
 	  
 	  motors_routine(joys_positions);
+	  buzzer_routine(btns_positions);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
