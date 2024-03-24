@@ -140,7 +140,59 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
  .text.check_crc
                 0x00000000       0x74 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .text.read_data_in
+                0x00000000       0x7e CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_info    0x00000000      0x31f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_abbrev  0x00000000      0x191 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_rnglists
+                0x00000000       0x1f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x1e1 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
  .debug_macro   0x00000000      0xa9c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x221 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x56 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0xbd CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0xd23 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000     0x75c9 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000     0x348d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x5bc CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x369 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x1cb CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x114 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x1f1 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x27 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x130 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x1bc CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x6b CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x240 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x140 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000       0x9f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_macro   0x00000000      0x112 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_line    0x00000000      0x6df CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_str     0x00000000    0x63310 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .debug_frame   0x00000000       0x88 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .ARM.attributes
+                0x00000000       0x2d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
  .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
@@ -183,6 +235,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .data          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .bss           0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .text.motors_routine
+                0x00000000      0x128 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .debug_macro   0x00000000      0xa9c CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .debug_macro   0x00000000      0x221 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
@@ -263,6 +317,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .data          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .bss           0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .text.buzzer_routine
+                0x00000000       0x28 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_macro   0x00000000      0xa9c CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_macro   0x00000000      0x221 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
@@ -302,20 +358,86 @@ Discarded input sections
  .debug_macro   0x00000000       0x9f CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_macro   0x00000000      0x112 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .group         0x00000000        0xc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .text          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .data          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .bss           0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_info    0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_abbrev  0x00000000       0x12 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_macro   0x00000000       0x11 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .text.led_routine
+                0x00000000       0x34 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .debug_macro   0x00000000      0xa9c CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_line    0x00000000       0x56 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .debug_str     0x00000000     0x2d9a CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .comment       0x00000000       0x46 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x221 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x56 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0xbd CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0xd23 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000     0x75c9 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000     0x348d CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x182 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x5c CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x5bc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x369 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x1cb CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x114 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x1f1 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x27 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x130 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x1bc CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x6b CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x240 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x140 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x8ed CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x2aa CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000       0x9f CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000000      0x112 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .text          0x00000000       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
  .data          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
  .bss           0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
@@ -362,6 +484,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .bss.get_message_from_joystick
+                0x00000000        0x1 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .bss.btns_positions
+                0x00000000        0x4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .bss.joys_positions
+                0x00000000        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .text.HAL_UART_RxCpltCallback
                 0x00000000       0x1c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .debug_macro   0x00000000      0xa9c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
@@ -3074,12 +3202,30 @@ Discarded input sections
  .debug_macro   0x00000000      0x2aa CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
  .debug_macro   0x00000000       0x9f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
  .debug_macro   0x00000000      0x112 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+ .text          0x00000000      0x254 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
  .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
  .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .debug_line_str
+                0x00000000       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .debug_frame   0x00000000       0x30 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+ .text          0x00000000      0x378 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_line_str
+                0x00000000       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x00000000       0xac c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_line_str
+                0x00000000       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
  .text          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
  .data          0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
  .bss           0x00000000        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-exit.o)
@@ -3394,398 +3540,371 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
                 0x08000000                g_pfnVectors
                 0x080001d0                        . = ALIGN (0x4)
 
-.text           0x080001d0     0x34d8
+.text           0x080001d0     0x2c98
                 0x080001d0                        . = ALIGN (0x4)
  *(.text)
- .text          0x080001d0      0x254 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
-                0x080001d0                __muldf3
-                0x080001d0                __aeabi_dmul
- .text          0x08000424      0x378 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
-                0x08000424                __aeabi_drsub
-                0x0800042c                __aeabi_dsub
-                0x0800042c                __subdf3
-                0x08000430                __aeabi_dadd
-                0x08000430                __adddf3
-                0x080006a8                __floatunsidf
-                0x080006a8                __aeabi_ui2d
-                0x080006c8                __floatsidf
-                0x080006c8                __aeabi_i2d
-                0x080006ec                __aeabi_f2d
-                0x080006ec                __extendsfdf2
-                0x08000730                __floatundidf
-                0x08000730                __aeabi_ul2d
-                0x08000740                __floatdidf
-                0x08000740                __aeabi_l2d
- .text          0x0800079c       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
-                0x0800079c                __aeabi_d2iz
-                0x0800079c                __fixdfsi
  *(.text*)
  .text.deregister_tm_clones
-                0x080007ec       0x1c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x080001d0       0x1c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .text.register_tm_clones
-                0x08000808       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x080001ec       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .text.__do_global_dtors_aux
-                0x0800082c       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08000210       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .text.frame_dummy
-                0x08000854       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
- .text.read_data_in
-                0x08000878       0x7e CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
-                0x08000878                read_data_in
- .text.ABS      0x080008f6       0x22 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
-                0x080008f6                ABS
+                0x08000238       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+ .text.ABS      0x0800025c       0x22 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x0800025c                ABS
+ *fill*         0x0800027e        0x2 
  .text.motors_init
-                0x08000918       0xa4 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
-                0x08000918                motors_init
+                0x08000280       0xb0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x08000280                motors_init
  .text.motor_set_direction_and_duty
-                0x080009bc      0x184 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
-                0x080009bc                motor_set_direction_and_duty
- .text.motors_routine
-                0x08000b40      0x1e8 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
-                0x08000b40                motors_routine
+                0x08000330      0x18c CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x08000330                motor_set_direction_and_duty
  .text.buzzer_init
-                0x08000d28       0x30 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
-                0x08000d28                buzzer_init
- .text.buzzer_routine
-                0x08000d58       0x28 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
-                0x08000d58                buzzer_routine
+                0x080004bc       0x30 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+                0x080004bc                buzzer_init
+ .text.led_init
+                0x080004ec       0x4c CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+                0x080004ec                led_init
  .text.Reset_Handler
-                0x08000d80       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
-                0x08000d80                Reset_Handler
+                0x08000538       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+                0x08000538                Reset_Handler
  .text.Default_Handler
-                0x08000dc8        0x2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
-                0x08000dc8                RTC_Alarm_IRQHandler
-                0x08000dc8                EXTI2_IRQHandler
-                0x08000dc8                TIM1_CC_IRQHandler
-                0x08000dc8                PVD_IRQHandler
-                0x08000dc8                EXTI3_IRQHandler
-                0x08000dc8                EXTI0_IRQHandler
-                0x08000dc8                TIM1_UP_TIM16_IRQHandler
-                0x08000dc8                SPI1_IRQHandler
-                0x08000dc8                TAMPER_IRQHandler
-                0x08000dc8                TIM6_DAC_IRQHandler
-                0x08000dc8                DMA1_Channel4_IRQHandler
-                0x08000dc8                ADC1_IRQHandler
-                0x08000dc8                USART3_IRQHandler
-                0x08000dc8                RTC_IRQHandler
-                0x08000dc8                DMA1_Channel7_IRQHandler
-                0x08000dc8                TIM4_IRQHandler
-                0x08000dc8                I2C1_EV_IRQHandler
-                0x08000dc8                DMA1_Channel6_IRQHandler
-                0x08000dc8                TIM3_IRQHandler
-                0x08000dc8                RCC_IRQHandler
-                0x08000dc8                DMA1_Channel1_IRQHandler
-                0x08000dc8                Default_Handler
-                0x08000dc8                CEC_IRQHandler
-                0x08000dc8                EXTI15_10_IRQHandler
-                0x08000dc8                TIM7_IRQHandler
-                0x08000dc8                EXTI9_5_IRQHandler
-                0x08000dc8                SPI2_IRQHandler
-                0x08000dc8                DMA1_Channel5_IRQHandler
-                0x08000dc8                EXTI4_IRQHandler
-                0x08000dc8                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08000dc8                DMA1_Channel3_IRQHandler
-                0x08000dc8                WWDG_IRQHandler
-                0x08000dc8                TIM2_IRQHandler
-                0x08000dc8                EXTI1_IRQHandler
-                0x08000dc8                USART2_IRQHandler
-                0x08000dc8                DMA1_Channel2_IRQHandler
-                0x08000dc8                FLASH_IRQHandler
-                0x08000dc8                USART1_IRQHandler
-                0x08000dc8                I2C1_ER_IRQHandler
-                0x08000dc8                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x08000dca        0x2 
- .text.main     0x08000dcc       0x78 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x08000dcc                main
+                0x08000580        0x2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+                0x08000580                RTC_Alarm_IRQHandler
+                0x08000580                EXTI2_IRQHandler
+                0x08000580                TIM1_CC_IRQHandler
+                0x08000580                PVD_IRQHandler
+                0x08000580                EXTI3_IRQHandler
+                0x08000580                EXTI0_IRQHandler
+                0x08000580                TIM1_UP_TIM16_IRQHandler
+                0x08000580                SPI1_IRQHandler
+                0x08000580                TAMPER_IRQHandler
+                0x08000580                TIM6_DAC_IRQHandler
+                0x08000580                DMA1_Channel4_IRQHandler
+                0x08000580                ADC1_IRQHandler
+                0x08000580                USART3_IRQHandler
+                0x08000580                RTC_IRQHandler
+                0x08000580                DMA1_Channel7_IRQHandler
+                0x08000580                TIM4_IRQHandler
+                0x08000580                I2C1_EV_IRQHandler
+                0x08000580                DMA1_Channel6_IRQHandler
+                0x08000580                TIM3_IRQHandler
+                0x08000580                RCC_IRQHandler
+                0x08000580                DMA1_Channel1_IRQHandler
+                0x08000580                Default_Handler
+                0x08000580                CEC_IRQHandler
+                0x08000580                EXTI15_10_IRQHandler
+                0x08000580                TIM7_IRQHandler
+                0x08000580                EXTI9_5_IRQHandler
+                0x08000580                SPI2_IRQHandler
+                0x08000580                DMA1_Channel5_IRQHandler
+                0x08000580                EXTI4_IRQHandler
+                0x08000580                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08000580                DMA1_Channel3_IRQHandler
+                0x08000580                WWDG_IRQHandler
+                0x08000580                TIM2_IRQHandler
+                0x08000580                EXTI1_IRQHandler
+                0x08000580                USART2_IRQHandler
+                0x08000580                DMA1_Channel2_IRQHandler
+                0x08000580                FLASH_IRQHandler
+                0x08000580                USART1_IRQHandler
+                0x08000580                I2C1_ER_IRQHandler
+                0x08000580                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08000582        0x2 
+ .text.main     0x08000584       0x80 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                0x08000584                main
  .text.SystemClock_Config
-                0x08000e44       0x84 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x08000e44                SystemClock_Config
+                0x08000604       0x84 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                0x08000604                SystemClock_Config
  .text.Error_Handler
-                0x08000ec8        0xa CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x08000ec8                Error_Handler
+                0x08000688        0xa CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                0x08000688                Error_Handler
  .text.HAL_Init
-                0x08000ed2       0x1a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000ed2                HAL_Init
+                0x08000692       0x1a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000692                HAL_Init
  .text.HAL_InitTick
-                0x08000eec       0x60 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000eec                HAL_InitTick
+                0x080006ac       0x60 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080006ac                HAL_InitTick
  .text.HAL_IncTick
-                0x08000f4c       0x24 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000f4c                HAL_IncTick
+                0x0800070c       0x24 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800070c                HAL_IncTick
  .text.HAL_GetTick
-                0x08000f70       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000f70                HAL_GetTick
+                0x08000730       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000730                HAL_GetTick
  .text.HAL_Delay
-                0x08000f84       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000f84                HAL_Delay
+                0x08000744       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08000744                HAL_Delay
  .text.__NVIC_SetPriorityGrouping
-                0x08000fcc       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800078c       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x08001014       0x1c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080007d4       0x1c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08001030       0x54 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080007f0       0x54 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08001084       0x64 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000844       0x64 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x080010e8       0x44 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080008a8       0x44 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0800112c       0x16 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800112c                HAL_NVIC_SetPriorityGrouping
+                0x080008ec       0x16 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080008ec                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001142       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001142                HAL_NVIC_SetPriority
+                0x08000902       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08000902                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0800117a       0x18 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800117a                HAL_SYSTICK_Config
+                0x0800093a       0x18 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800093a                HAL_SYSTICK_Config
  .text.HAL_CRC_Init
-                0x08001192       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
-                0x08001192                HAL_CRC_Init
- *fill*         0x080011ca        0x2 
+                0x08000952       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x08000952                HAL_CRC_Init
+ *fill*         0x0800098a        0x2 
  .text.HAL_GPIO_Init
-                0x080011cc      0x308 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080011cc                HAL_GPIO_Init
+                0x0800098c      0x308 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800098c                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x080014d4       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080014d4                HAL_GPIO_WritePin
+                0x08000c94       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08000c94                HAL_GPIO_WritePin
  .text.HAL_RCC_OscConfig
-                0x08001504      0x504 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001504                HAL_RCC_OscConfig
+                0x08000cc4      0x504 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08000cc4                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001a08      0x170 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001a08                HAL_RCC_ClockConfig
+                0x080011c8      0x170 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080011c8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001b78       0xa4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001b78                HAL_RCC_GetSysClockFreq
+                0x08001338       0xa4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001338                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x08001c1c       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001c1c                HAL_RCC_GetHCLKFreq
+                0x080013dc       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080013dc                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001c30       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001c30                HAL_RCC_GetPCLK1Freq
+                0x080013f0       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080013f0                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001c58       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001c58                HAL_RCC_GetPCLK2Freq
+                0x08001418       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001418                HAL_RCC_GetPCLK2Freq
  .text.RCC_Delay
-                0x08001c80       0x3c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001440       0x3c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_TIM_PWM_Init
-                0x08001cbc       0x9e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001cbc                HAL_TIM_PWM_Init
- *fill*         0x08001d5a        0x2 
+                0x0800147c       0x9e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0800147c                HAL_TIM_PWM_Init
+ *fill*         0x0800151a        0x2 
  .text.HAL_TIM_PWM_Start
-                0x08001d5c      0x184 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001d5c                HAL_TIM_PWM_Start
+                0x0800151c      0x184 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x0800151c                HAL_TIM_PWM_Start
  .text.HAL_TIM_PWM_ConfigChannel
-                0x08001ee0      0x184 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08001ee0                HAL_TIM_PWM_ConfigChannel
+                0x080016a0      0x184 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080016a0                HAL_TIM_PWM_ConfigChannel
  .text.TIM_Base_SetConfig
-                0x08002064      0x100 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08002064                TIM_Base_SetConfig
+                0x08001824      0x100 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001824                TIM_Base_SetConfig
  .text.TIM_OC1_SetConfig
-                0x08002164      0x108 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001924      0x108 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_OC2_SetConfig
-                0x0800226c       0xf8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800226c                TIM_OC2_SetConfig
+                0x08001a2c       0xf8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001a2c                TIM_OC2_SetConfig
  .text.TIM_OC3_SetConfig
-                0x08002364       0xf8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001b24       0xf8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x0800245c       0xc0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001c1c       0xc0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_CCxChannelCmd
-                0x0800251c       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800251c                TIM_CCxChannelCmd
+                0x08001cdc       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08001cdc                TIM_CCxChannelCmd
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08002564       0xcc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08002564                HAL_TIMEx_MasterConfigSynchronization
+                0x08001d24       0xcc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08001d24                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_ConfigBreakDeadTime
-                0x08002630       0xa2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08002630                HAL_TIMEx_ConfigBreakDeadTime
+                0x08001df0       0xa2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08001df0                HAL_TIMEx_ConfigBreakDeadTime
  .text.HAL_UART_Init
-                0x080026d2       0xa0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080026d2                HAL_UART_Init
+                0x08001e92       0xa0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001e92                HAL_UART_Init
  .text.HAL_UART_Receive_IT
-                0x08002772       0x4a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08002772                HAL_UART_Receive_IT
+                0x08001f32       0x4a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001f32                HAL_UART_Receive_IT
  .text.UART_Start_Receive_IT
-                0x080027bc       0x72 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080027bc                UART_Start_Receive_IT
- *fill*         0x0800282e        0x2 
+                0x08001f7c       0x72 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001f7c                UART_Start_Receive_IT
+ *fill*         0x08001fee        0x2 
  .text.UART_SetConfig
-                0x08002830      0x1c8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08001ff0      0x1c8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.MX_CRC_Init
-                0x080029f8       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
-                0x080029f8                MX_CRC_Init
+                0x080021b8       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+                0x080021b8                MX_CRC_Init
  .text.HAL_CRC_MspInit
-                0x08002a20       0x3c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
-                0x08002a20                HAL_CRC_MspInit
+                0x080021e0       0x3c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+                0x080021e0                HAL_CRC_MspInit
  .text.MX_GPIO_Init
-                0x08002a5c       0xac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
-                0x08002a5c                MX_GPIO_Init
+                0x0800221c       0xac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+                0x0800221c                MX_GPIO_Init
  .text.HAL_MspInit
-                0x08002b08       0x64 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08002b08                HAL_MspInit
+                0x080022c8       0x64 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x080022c8                HAL_MspInit
  .text.NMI_Handler
-                0x08002b6c        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b6c                NMI_Handler
+                0x0800232c        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800232c                NMI_Handler
  .text.HardFault_Handler
-                0x08002b72        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b72                HardFault_Handler
+                0x08002332        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x08002332                HardFault_Handler
  .text.MemManage_Handler
-                0x08002b78        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b78                MemManage_Handler
+                0x08002338        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x08002338                MemManage_Handler
  .text.BusFault_Handler
-                0x08002b7e        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b7e                BusFault_Handler
+                0x0800233e        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800233e                BusFault_Handler
  .text.UsageFault_Handler
-                0x08002b84        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b84                UsageFault_Handler
+                0x08002344        0x6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x08002344                UsageFault_Handler
  .text.SVC_Handler
-                0x08002b8a        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b8a                SVC_Handler
+                0x0800234a        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800234a                SVC_Handler
  .text.DebugMon_Handler
-                0x08002b96        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002b96                DebugMon_Handler
+                0x08002356        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x08002356                DebugMon_Handler
  .text.PendSV_Handler
-                0x08002ba2        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002ba2                PendSV_Handler
+                0x08002362        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x08002362                PendSV_Handler
  .text.SysTick_Handler
-                0x08002bae        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
-                0x08002bae                SysTick_Handler
+                0x0800236e        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x0800236e                SysTick_Handler
  .text.SystemInit
-                0x08002bba        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
-                0x08002bba                SystemInit
- *fill*         0x08002bc6        0x2 
+                0x0800237a        0xc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+                0x0800237a                SystemInit
+ *fill*         0x08002386        0x2 
  .text.MX_TIM1_Init
-                0x08002bc8      0x150 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08002bc8                MX_TIM1_Init
+                0x08002388      0x150 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x08002388                MX_TIM1_Init
  .text.MX_TIM2_Init
-                0x08002d18       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08002d18                MX_TIM2_Init
+                0x080024d8       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080024d8                MX_TIM2_Init
  .text.MX_TIM3_Init
-                0x08002e0c       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08002e0c                MX_TIM3_Init
+                0x080025cc       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080025cc                MX_TIM3_Init
  .text.MX_TIM4_Init
-                0x08002f00       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08002f00                MX_TIM4_Init
+                0x080026c0       0xf4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080026c0                MX_TIM4_Init
  .text.MX_TIM15_Init
-                0x08002ff4      0x120 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08002ff4                MX_TIM15_Init
+                0x080027b4      0x120 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080027b4                MX_TIM15_Init
  .text.HAL_TIM_PWM_MspInit
-                0x08003114       0xd8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x08003114                HAL_TIM_PWM_MspInit
+                0x080028d4       0xd8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080028d4                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_MspPostInit
-                0x080031ec      0x1fc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x080031ec                HAL_TIM_MspPostInit
+                0x080029ac      0x1fc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x080029ac                HAL_TIM_MspPostInit
  .text.MX_USART2_UART_Init
-                0x080033e8       0x54 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
-                0x080033e8                MX_USART2_UART_Init
+                0x08002ba8       0x54 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+                0x08002ba8                MX_USART2_UART_Init
  .text.HAL_UART_MspInit
-                0x0800343c       0x94 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
-                0x0800343c                HAL_UART_MspInit
- .text.memset   0x080034d0       0xa0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
-                0x080034d0                memset
+                0x08002bfc       0x94 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+                0x08002bfc                HAL_UART_MspInit
+ .text.memset   0x08002c90       0xa0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
+                0x08002c90                memset
  .text.__libc_init_array
-                0x08003570       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
-                0x08003570                __libc_init_array
+                0x08002d30       0x50 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
+                0x08002d30                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x080035c0        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
-                0x080035c0                __retarget_lock_acquire_recursive
+                0x08002d80        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x08002d80                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x080035c4        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
-                0x080035c4                __retarget_lock_release_recursive
+                0x08002d84        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x08002d84                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x080035c8       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x080035dc        0xc c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
-                0x080035dc                atexit
+                0x08002d88       0x14 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x08002d9c        0xc c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+                0x08002d9c                atexit
  .text.__libc_fini_array
-                0x080035e8       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
-                0x080035e8                __libc_fini_array
+                0x08002da8       0x28 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
+                0x08002da8                __libc_fini_array
  .text.__register_exitproc
-                0x08003610       0x80 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
-                0x08003610                __register_exitproc
+                0x08002dd0       0x80 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+                0x08002dd0                __register_exitproc
  *(.glue_7)
- .glue_7        0x08003690        0x0 linker stubs
+ .glue_7        0x08002e50        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003690        0x0 linker stubs
+ .glue_7t       0x08002e50        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003690        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08002e50        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08003690        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x08003690                _init
- .init          0x08003694        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08002e50        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08002e50                _init
+ .init          0x08002e54        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0800369c        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x0800369c                _fini
- .fini          0x080036a0        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
-                0x080036a8                        . = ALIGN (0x4)
-                0x080036a8                        _etext = .
+ .fini          0x08002e5c        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08002e5c                _fini
+ .fini          0x08002e60        0x8 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+                0x08002e68                        . = ALIGN (0x4)
+                0x08002e68                        _etext = .
 
-.vfp11_veneer   0x080036a8        0x0
- .vfp11_veneer  0x080036a8        0x0 linker stubs
+.vfp11_veneer   0x08002e68        0x0
+ .vfp11_veneer  0x08002e68        0x0 linker stubs
 
-.v4_bx          0x080036a8        0x0
- .v4_bx         0x080036a8        0x0 linker stubs
+.v4_bx          0x08002e68        0x0
+ .v4_bx         0x08002e68        0x0 linker stubs
 
-.iplt           0x080036a8        0x0
- .iplt          0x080036a8        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08002e68        0x0
+ .iplt          0x08002e68        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x080036a8       0x38
-                0x080036a8                        . = ALIGN (0x4)
+.rodata         0x08002e68       0x38
+                0x08002e68                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.aPLLMULFactorTable.1
-                0x080036a8       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002e68       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x080036b8       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002e78       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.AHBPrescTable
-                0x080036c8       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
-                0x080036c8                AHBPrescTable
+                0x08002e88       0x10 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+                0x08002e88                AHBPrescTable
  .rodata.APBPrescTable
-                0x080036d8        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
-                0x080036d8                APBPrescTable
-                0x080036e0                        . = ALIGN (0x4)
+                0x08002e98        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+                0x08002e98                APBPrescTable
+                0x08002ea0                        . = ALIGN (0x4)
 
-.rel.dyn        0x080036e0        0x0
- .rel.iplt      0x080036e0        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002ea0        0x0
+ .rel.iplt      0x08002ea0        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x080036e0        0x0
-                0x080036e0                        . = ALIGN (0x4)
+.ARM.extab      0x08002ea0        0x0
+                0x08002ea0                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080036e0                        . = ALIGN (0x4)
+                0x08002ea0                        . = ALIGN (0x4)
 
-.ARM            0x080036e0        0x0
-                0x080036e0                        . = ALIGN (0x4)
-                0x080036e0                        __exidx_start = .
+.ARM            0x08002ea0        0x0
+                0x08002ea0                        . = ALIGN (0x4)
+                0x08002ea0                        __exidx_start = .
  *(.ARM.exidx*)
-                0x080036e0                        __exidx_end = .
-                0x080036e0                        . = ALIGN (0x4)
+                0x08002ea0                        __exidx_end = .
+                0x08002ea0                        . = ALIGN (0x4)
 
-.preinit_array  0x080036e0        0x0
-                0x080036e0                        . = ALIGN (0x4)
-                0x080036e0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002ea0        0x0
+                0x08002ea0                        . = ALIGN (0x4)
+                0x08002ea0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080036e0                        PROVIDE (__preinit_array_end = .)
-                0x080036e0                        . = ALIGN (0x4)
+                0x08002ea0                        PROVIDE (__preinit_array_end = .)
+                0x08002ea0                        . = ALIGN (0x4)
 
-.init_array     0x080036e0        0x8
-                0x080036e0                        . = ALIGN (0x4)
-                0x080036e0                        PROVIDE (__init_array_start = .)
+.init_array     0x08002ea0        0x8
+                0x08002ea0                        . = ALIGN (0x4)
+                0x08002ea0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x080036e0        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x08002ea0        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x080036e4        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x080036e8                        PROVIDE (__init_array_end = .)
-                0x080036e8                        . = ALIGN (0x4)
+ .init_array    0x08002ea4        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002ea8                        PROVIDE (__init_array_end = .)
+                0x08002ea8                        . = ALIGN (0x4)
 
-.fini_array     0x080036e8        0x4
-                0x080036e8                        . = ALIGN (0x4)
-                0x080036e8                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08002ea8        0x4
+                0x08002ea8                        . = ALIGN (0x4)
+                0x08002ea8                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080036e8        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x080036ec                        PROVIDE (__fini_array_end = .)
-                0x080036ec                        . = ALIGN (0x4)
-                0x080036ec                        _sidata = LOADADDR (.data)
+ .fini_array    0x08002ea8        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002eac                        PROVIDE (__fini_array_end = .)
+                0x08002eac                        . = ALIGN (0x4)
+                0x08002eac                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x10 load address 0x080036ec
+.data           0x20000000       0x10 load address 0x08002eac
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3809,17 +3928,17 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
                 0x20000010                        _edata = .
 
 .tm_clone_table
-                0x20000010        0x0 load address 0x080036fc
+                0x20000010        0x0 load address 0x08002ebc
  .tm_clone_table
                 0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x20000010        0x0 load address 0x080036fc
+.igot.plt       0x20000010        0x0 load address 0x08002ebc
  .igot.plt      0x20000010        0x0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x20000010                        . = ALIGN (0x4)
 
-.bss            0x20000010      0x398 load address 0x080036fc
+.bss            0x20000010      0x388 load address 0x08002ebc
                 0x20000010                        _sbss = .
                 0x20000010                        __bss_start__ = _sbss
  *(.bss)
@@ -3831,56 +3950,46 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
  .bss.data_from_joystick
                 0x2000002c       0x18 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
                 0x2000002c                data_from_joystick
- .bss.get_message_from_joystick
-                0x20000044        0x1 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x20000044                get_message_from_joystick
- *fill*         0x20000045        0x3 
- .bss.btns_positions
-                0x20000048        0x4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x20000048                btns_positions
- .bss.joys_positions
-                0x2000004c        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                0x2000004c                joys_positions
- .bss.uwTick    0x20000054        0x4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x20000054                uwTick
- .bss.hcrc      0x20000058        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
-                0x20000058                hcrc
- .bss.htim1     0x20000060       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x20000060                htim1
- .bss.htim2     0x200000a8       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x200000a8                htim2
- .bss.htim3     0x200000f0       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x200000f0                htim3
- .bss.htim4     0x20000138       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x20000138                htim4
- .bss.htim15    0x20000180       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
-                0x20000180                htim15
- .bss.huart2    0x200001c8       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
-                0x200001c8                huart2
+ .bss.uwTick    0x20000044        0x4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000044                uwTick
+ .bss.hcrc      0x20000048        0x8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+                0x20000048                hcrc
+ .bss.htim1     0x20000050       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x20000050                htim1
+ .bss.htim2     0x20000098       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x20000098                htim2
+ .bss.htim3     0x200000e0       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x200000e0                htim3
+ .bss.htim4     0x20000128       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x20000128                htim4
+ .bss.htim15    0x20000170       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x20000170                htim15
+ .bss.huart2    0x200001b8       0x48 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+                0x200001b8                huart2
  .bss.__lock___atexit_recursive_mutex
-                0x20000210        0x1 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
-                0x20000210                __lock___atexit_recursive_mutex
- *fill*         0x20000211        0x3 
- .bss.__atexit  0x20000214        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
-                0x20000214                __atexit
+                0x20000200        0x1 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x20000200                __lock___atexit_recursive_mutex
+ *fill*         0x20000201        0x3 
+ .bss.__atexit  0x20000204        0x4 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x20000204                __atexit
  .bss.__atexit0
-                0x20000218      0x190 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
-                0x20000218                __atexit0
+                0x20000208      0x190 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+                0x20000208                __atexit0
  *(COMMON)
-                0x200003a8                        . = ALIGN (0x4)
-                0x200003a8                        _ebss = .
-                0x200003a8                        __bss_end__ = _ebss
+                0x20000398                        . = ALIGN (0x4)
+                0x20000398                        _ebss = .
+                0x20000398                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200003a8      0x600 load address 0x080036fc
-                0x200003a8                        . = ALIGN (0x8)
+                0x20000398      0x600 load address 0x08002ebc
+                0x20000398                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x200003a8                        PROVIDE (_end = .)
-                0x200005a8                        . = (. + _Min_Heap_Size)
- *fill*         0x200003a8      0x200 
-                0x200009a8                        . = (. + _Min_Stack_Size)
- *fill*         0x200005a8      0x400 
-                0x200009a8                        . = ALIGN (0x8)
+                0x20000398                        PROVIDE (_end = .)
+                0x20000598                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000398      0x200 
+                0x20000998                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000598      0x400 
+                0x20000998                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3895,11 +4004,11 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
  .ARM.attributes
                 0x0000001d       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004a       0x2d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+                0x0000004a       0x2d CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .ARM.attributes
-                0x00000077       0x2d CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x00000077       0x2d CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .ARM.attributes
-                0x000000a4       0x2d CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+                0x000000a4       0x2d CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .ARM.attributes
                 0x000000d1       0x21 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
  .ARM.attributes
@@ -3935,293 +4044,250 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn
  .ARM.attributes
                 0x00000395       0x2d CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
  .ARM.attributes
-                0x000003c2       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
+                0x000003c2       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
  .ARM.attributes
-                0x000003df       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+                0x000003ef       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
  .ARM.attributes
-                0x000003fc       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+                0x0000041c       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
  .ARM.attributes
-                0x00000419       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
+                0x00000449       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
  .ARM.attributes
-                0x00000446       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
+                0x00000476       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
  .ARM.attributes
-                0x00000473       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+                0x000004a3       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
  .ARM.attributes
-                0x000004a0       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x000004d0       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
  .ARM.attributes
-                0x000004cd       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+                0x000004fd       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtend.o
  .ARM.attributes
-                0x000004fa       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
- .ARM.attributes
-                0x00000527       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
- .ARM.attributes
-                0x00000554       0x2d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtend.o
- .ARM.attributes
-                0x00000581       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000052a       0x1d c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(rc_4wd_new elf32-littlearm)
 LOAD linker stubs
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libc.a
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libm.a
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xc982
- .debug_info    0x00000000      0x31f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_info    0x0000031f      0x7df CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_info    0x00000afe      0x692 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_info    0x00001190       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
- .debug_info    0x000011c0      0x876 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
- .debug_info    0x00001a36      0x676 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x000020ac      0xa74 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00002b20      0x376 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_info    0x00002e96      0x5be CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00003454      0x75e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00003bb2     0x2934 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x000064e6     0x1494 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_info    0x0000797a     0x2fa1 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x0000a91b      0x33f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
- .debug_info    0x0000ac5a      0x2ef CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
- .debug_info    0x0000af49      0x204 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x0000b14d      0x10c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000b259      0x22f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x0000b488      0xd41 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
- .debug_info    0x0000c1c9      0x7b9 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+.debug_info     0x00000000     0xc7fa
+ .debug_info    0x00000000      0x78b CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_info    0x0000078b      0x692 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_info    0x00000e1d      0x1c2 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_info    0x00000fdf       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+ .debug_info    0x0000100f      0x89f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .debug_info    0x000018ae      0x676 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00001f24      0xa74 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00002998      0x376 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_info    0x00002d0e      0x5be CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x000032cc      0x75e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x00003a2a     0x2934 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x0000635e     0x1494 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_info    0x000077f2     0x2fa1 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000a793      0x33f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_info    0x0000aad2      0x2ef CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_info    0x0000adc1      0x204 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x0000afc5      0x10c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000b0d1      0x22f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x0000b300      0xd41 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_info    0x0000c041      0x7b9 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_abbrev   0x00000000     0x2428
- .debug_abbrev  0x00000000      0x191 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_abbrev  0x00000191      0x1d0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_abbrev  0x00000361      0x1a2 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_abbrev  0x00000503       0x24 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
- .debug_abbrev  0x00000527      0x256 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
- .debug_abbrev  0x0000077d      0x233 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x000009b0      0x2f8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00000ca8      0x180 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_abbrev  0x00000e28      0x1ca CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x00000ff2      0x2b2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000012a4      0x277 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_abbrev  0x0000151b      0x282 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_abbrev  0x0000179d      0x2f8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x00001a95      0x197 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
- .debug_abbrev  0x00001c2c      0x13e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
- .debug_abbrev  0x00001d6a       0xdb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00001e45       0x73 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00001eb8      0x119 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00001fd1      0x272 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
- .debug_abbrev  0x00002243      0x1e5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+.debug_abbrev   0x00000000     0x23e7
+ .debug_abbrev  0x00000000      0x1d0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_abbrev  0x000001d0      0x1a2 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_abbrev  0x00000372      0x120 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_abbrev  0x00000492       0x24 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+ .debug_abbrev  0x000004b6      0x286 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .debug_abbrev  0x0000073c      0x233 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x0000096f      0x2f8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000c67      0x180 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_abbrev  0x00000de7      0x1ca CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000fb1      0x2b2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001263      0x277 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_abbrev  0x000014da      0x282 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000175c      0x2f8 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00001a54      0x197 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_abbrev  0x00001beb      0x13e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_abbrev  0x00001d29       0xdb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00001e04       0x73 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00001e77      0x119 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x00001f90      0x272 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_abbrev  0x00002202      0x1e5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_aranges  0x00000000      0xcc8
+.debug_aranges  0x00000000      0xcc0
  .debug_aranges
-                0x00000000       0x30 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+                0x00000000       0x38 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .debug_aranges
-                0x00000030       0x38 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x00000038       0x28 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_aranges
-                0x00000068       0x28 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+                0x00000060       0x28 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .debug_aranges
-                0x00000090       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+                0x00000088       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
  .debug_aranges
-                0x000000b8       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                0x000000b0       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .debug_aranges
-                0x000000f0       0xe0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000000e8       0xe0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x000001d0      0x100 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000001c8      0x100 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x000002d0       0x50 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x000002c8       0x50 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
  .debug_aranges
-                0x00000320       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000318       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000378       0x90 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000370       0x90 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000408      0x3d0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x00000400      0x3d0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_aranges
-                0x000007d8      0x168 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x000007d0      0x168 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x00000940      0x208 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000938      0x208 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_aranges
-                0x00000b48       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+                0x00000b40       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
  .debug_aranges
-                0x00000b78       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+                0x00000b70       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000b98       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000b90       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x00000bb8       0x60 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x00000bb0       0x60 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x00000c18       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+                0x00000c10       0x28 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x00000c40       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x00000c38       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
  .debug_aranges
-                0x00000c98       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+                0x00000c90       0x30 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
 .debug_rnglists
-                0x00000000      0x9e2
+                0x00000000      0x9dd
  .debug_rnglists
-                0x00000000       0x1f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+                0x00000000       0x28 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .debug_rnglists
-                0x0000001f       0x28 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                0x00000028       0x19 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
  .debug_rnglists
-                0x00000047       0x19 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+                0x00000041       0x19 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .debug_rnglists
-                0x00000060       0x19 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+                0x0000005a       0x19 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
  .debug_rnglists
-                0x00000079       0x26 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                0x00000073       0x27 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .debug_rnglists
-                0x0000009f       0xa3 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000009a       0xa3 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_rnglists
-                0x00000142       0xbb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000013d       0xbb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_rnglists
-                0x000001fd       0x37 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+                0x000001f8       0x37 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
  .debug_rnglists
-                0x00000234       0x3f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000022f       0x3f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_rnglists
-                0x00000273       0x6c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000026e       0x6c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000002df      0x31a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x000002da      0x31a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_rnglists
-                0x000005f9      0x125 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x000005f4      0x125 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_rnglists
-                0x0000071e      0x1bc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000719      0x1bc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_rnglists
-                0x000008da       0x1f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+                0x000008d5       0x1f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
  .debug_rnglists
-                0x000008f9       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+                0x000008f4       0x14 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x0000090d       0x13 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000908       0x13 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x00000920       0x43 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+                0x0000091b       0x43 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x00000963       0x1a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+                0x0000095e       0x1a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
-                0x0000097d       0x45 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+                0x00000978       0x45 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
  .debug_rnglists
-                0x000009c2       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+                0x000009bd       0x20 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_macro    0x00000000    0x10632
- .debug_macro   0x00000000      0x1e1 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x000001e1      0x221 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000402       0x2e CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000430       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000452       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000474       0x56 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x000004ca       0x51 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000051b      0x103 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000061e       0x6a CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000688      0x1df CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000867       0x1c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000883       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x000008a5       0xbd CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00000962      0xd23 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00001685     0x75c9 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00008c4e       0x6d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x00008cbb     0x348d CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000c148      0x182 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000c2ca       0x5c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000c326      0x5bc CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000c8e2      0x369 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000cc4b      0x1cb CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000ce16      0x114 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000cf2a      0x1f1 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d11b       0x27 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d142      0x130 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d272      0x1bc CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d42e       0x34 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d462       0x3c CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d49e       0x57 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d4f5       0x22 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d517       0x6b CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d582      0x240 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d7c2      0x140 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000d902      0x8ed CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000e1ef      0x2aa CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000e499       0x9f CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000e538      0x112 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_macro   0x0000e64a      0x1c4 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_macro   0x0000e80e       0x10 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_macro   0x0000e81e      0x1c4 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_macro   0x0000e9e2       0x10 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_macro   0x0000e9f2      0x1fd CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
- .debug_macro   0x0000ebef      0x1d0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_macro   0x0000edbf      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_macro   0x0000ef6b      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_macro   0x0000f117      0x217 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_macro   0x0000f32e      0x1be CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_macro   0x0000f4ec      0x1ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_macro   0x0000f699      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_macro   0x0000f845      0x1ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_macro   0x0000f9f2      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
- .debug_macro   0x0000fbb7      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
- .debug_macro   0x0000fd7c      0x1bb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x0000ff37      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x000100fc      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
- .debug_macro   0x000102a8      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
- .debug_macro   0x0001046d      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+.debug_macro    0x00000000     0x21ab
+ .debug_macro   0x00000000      0x1c4 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_macro   0x000001c4       0x10 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_macro   0x000001d4      0x1c4 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_macro   0x00000398       0x10 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_macro   0x000003a8      0x1bf CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_macro   0x00000567      0x201 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .debug_macro   0x00000768      0x1d0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_macro   0x00000938      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_macro   0x00000ae4      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_macro   0x00000c90      0x217 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_macro   0x00000ea7      0x1be CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_macro   0x00001065      0x1ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_macro   0x00001212      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_macro   0x000013be      0x1ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_macro   0x0000156b      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_macro   0x00001730      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_macro   0x000018f5      0x1bb CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x00001ab0      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00001c75      0x1ac CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_macro   0x00001e21      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_macro   0x00001fe6      0x1c5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_line     0x00000000     0xe9ca
- .debug_line    0x00000000      0x6df CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_line    0x000006df      0x844 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_line    0x00000f23      0x5c4 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_line    0x000014e7       0x78 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
- .debug_line    0x0000155f      0x687 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
- .debug_line    0x00001be6      0x811 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000023f7      0x9fe CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00002df5      0x6ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_line    0x000034a2      0x8ab CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00003d4d      0xbf2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x0000493f     0x35cd CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_line    0x00007f0c     0x17a5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_line    0x000096b1     0x277a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000be2b      0x5a2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
- .debug_line    0x0000c3cd      0x576 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
- .debug_line    0x0000c943      0x567 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0000ceaa      0x629 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000d4d3      0x5da CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x0000daad      0x947 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
- .debug_line    0x0000e3f4      0x5d6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+.debug_line     0x00000000     0xe8d0
+ .debug_line    0x00000000      0x853 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_line    0x00000853      0x5c4 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_line    0x00000e17      0x5b8 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_line    0x000013cf       0x78 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+ .debug_line    0x00001447      0x6a5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .debug_line    0x00001aec      0x811 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x000022fd      0x9fe CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00002cfb      0x6ad CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_line    0x000033a8      0x8ab CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00003c53      0xbf2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00004845     0x35cd CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_line    0x00007e12     0x17a5 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_line    0x000095b7     0x277a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0000bd31      0x5a2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_line    0x0000c2d3      0x576 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_line    0x0000c849      0x567 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000cdb0      0x629 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000d3d9      0x5da CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000d9b3      0x947 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_line    0x0000e2fa      0x5d6 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_str      0x00000000    0x66896
- .debug_str     0x00000000    0x62fa6 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
-                              0x63310 (size before relaxing)
- .debug_str     0x00062fa6      0x5e5 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
-                              0x63817 (size before relaxing)
- .debug_str     0x0006358b       0x87 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+.debug_str      0x00000000    0x667d0
+ .debug_str     0x00000000    0x6337d CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+                              0x63787 (size before relaxing)
+ .debug_str     0x0006337d       0x96 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
                               0x636c2 (size before relaxing)
- .debug_str     0x00063612       0x66 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
+ .debug_str     0x00063413       0x9e CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+                              0x631f2 (size before relaxing)
+ .debug_str     0x000634b1       0x66 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
                                  0xa8 (size before relaxing)
- .debug_str     0x00063678      0x46b CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
-                              0x6389f (size before relaxing)
- .debug_str     0x00063ae3      0x66e CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00063517      0x48f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+                              0x638b6 (size before relaxing)
+ .debug_str     0x000639a6      0x678 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x63525 (size before relaxing)
- .debug_str     0x00064151      0x2e2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0006401e      0x2e2 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x6348a (size before relaxing)
- .debug_str     0x00064433       0xe1 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_str     0x00064300      0x19a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
                               0x62f70 (size before relaxing)
- .debug_str     0x00064514      0x3c0 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0006449a      0x36d CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x631ba (size before relaxing)
- .debug_str     0x000648d4      0x26c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00064807      0x26c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x63244 (size before relaxing)
- .debug_str     0x00064b40      0xedc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x00064a73      0xedc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                               0x6424f (size before relaxing)
- .debug_str     0x00065a1c      0x52a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0006594f      0x52a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                               0x63a6b (size before relaxing)
- .debug_str     0x00065f46      0x65c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x00065e79      0x663 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x638ce (size before relaxing)
- .debug_str     0x000665a2       0x43 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_str     0x000664dc       0x43 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
                               0x63343 (size before relaxing)
- .debug_str     0x000665e5       0x4a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_str     0x0006651f       0x4a CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
                               0x63264 (size before relaxing)
- .debug_str     0x0006662f       0x47 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00066569       0x47 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x631e2 (size before relaxing)
- .debug_str     0x00066676       0xe4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x000665b0       0xe4 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
                               0x631f1 (size before relaxing)
- .debug_str     0x0006675a       0x87 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00066694       0x87 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
                               0x62e46 (size before relaxing)
- .debug_str     0x000667e1       0x6f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_str     0x0006671b       0x6f CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
                               0x639a4 (size before relaxing)
- .debug_str     0x00066850       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+ .debug_str     0x0006678a       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
                               0x636ac (size before relaxing)
 
 .comment        0x00000000       0x45
- .comment       0x00000000       0x45 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
+ .comment       0x00000000       0x45 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
                                  0x46 (size before relaxing)
- .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -4239,44 +4305,35 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
  .comment       0x00000045       0x46 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
 
-.debug_frame    0x00000000     0x35fc
- .debug_frame   0x00000000       0x88 CMakeFiles/rc_4wd_new.dir/src/data_processing.c.obj
- .debug_frame   0x00000088       0x9c CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
- .debug_frame   0x00000124       0x54 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
- .debug_frame   0x00000178       0x90 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
- .debug_frame   0x00000208      0x334 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x0000053c      0x428 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00000964      0x120 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
- .debug_frame   0x00000a84      0x14c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000bd0      0x218 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00000de8     0x11bc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_frame   0x00001fa4      0x638 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_frame   0x000025dc      0x944 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00002f20       0x7c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
- .debug_frame   0x00002f9c       0x34 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
- .debug_frame   0x00002fd0       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x00003008      0x104 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x0000310c       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00003164      0x138 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
- .debug_frame   0x0000329c       0x74 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
- .debug_frame   0x00003310       0x30 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
- .debug_frame   0x00003340       0xac c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000033ec       0x24 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00003410       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
- .debug_frame   0x0000343c       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
- .debug_frame   0x00003468       0xb0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
- .debug_frame   0x00003518       0x5c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
- .debug_frame   0x00003574       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
- .debug_frame   0x00003594       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
- .debug_frame   0x000035c8       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
+.debug_frame    0x00000000     0x34cc
+ .debug_frame   0x00000000       0xa0 CMakeFiles/rc_4wd_new.dir/src/motor.c.obj
+ .debug_frame   0x000000a0       0x54 CMakeFiles/rc_4wd_new.dir/src/buzzer.c.obj
+ .debug_frame   0x000000f4       0x50 CMakeFiles/rc_4wd_new.dir/src/led.c.obj
+ .debug_frame   0x00000144       0x94 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/main.c.obj
+ .debug_frame   0x000001d8      0x334 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x0000050c      0x428 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x00000934      0x120 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_crc.c.obj
+ .debug_frame   0x00000a54      0x14c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00000ba0      0x218 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00000db8     0x11bc CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_frame   0x00001f74      0x638 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_frame   0x000025ac      0x944 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00002ef0       0x7c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/crc.c.obj
+ .debug_frame   0x00002f6c       0x34 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/gpio.c.obj
+ .debug_frame   0x00002fa0       0x38 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00002fd8      0x104 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x000030dc       0x58 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x00003134      0x138 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/tim.c.obj
+ .debug_frame   0x0000326c       0x74 CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Core/Src/usart.c.obj
+ .debug_frame   0x000032e0       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-memset.o)
+ .debug_frame   0x0000330c       0x2c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-init.o)
+ .debug_frame   0x00003338       0xb0 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-lock.o)
+ .debug_frame   0x000033e8       0x5c c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00003444       0x20 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-atexit.o)
+ .debug_frame   0x00003464       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-fini.o)
+ .debug_frame   0x00003498       0x34 c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libg.a(libc_a-__atexit.o)
 
 .debug_line_str
-                0x00000000      0x156
+                0x00000000       0x8c
  .debug_line_str
                 0x00000000       0x8c CMakeFiles/rc_4wd_new.dir/C_/WORKS/STM32_Projects/rc_4wd_new/common/Startup/startup_stm32f100rbtx.s.obj
- .debug_line_str
-                0x0000008c       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldf3.o)
- .debug_line_str
-                0x00000156       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_line_str
-                0x00000156       0xca c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)

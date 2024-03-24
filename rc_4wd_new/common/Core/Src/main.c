@@ -101,9 +101,10 @@ int main(void)
   MX_TIM15_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  buzzer_init();
   motors_init();
+  buzzer_init();
   led_init();
+//	motor_set_direction_and_duty(B_RIGHT, -5000);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -120,6 +121,14 @@ int main(void)
 	  
 	  motors_routine(joys_positions);
 	  buzzer_routine(btns_positions);
+	  led_routine(btns_positions);
+	  
+//	  for (int16_t i = -10000; i < 10000; i++)
+//	  {
+//		  motor_set_direction_and_duty(B_RIGHT, i);
+//		  HAL_Delay(10);
+//	  }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
